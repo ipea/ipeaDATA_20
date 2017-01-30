@@ -17,3 +17,13 @@ _(anotações de nossa reunião de hoje, vão complementando)_
 1. de fácil manutenção
 1. programação bem documentada
 
+## Problemas site ipeadata1.0
+_(anotações reunião de hoje, complementem)_
+
+- arvore de classificação VS. tags e busca
+- separar sistema de classificação como um metadado, não hard-coded
+- multiplicação vertical de séries
+- Padrão de sites do governo (regras de cabeçalho
+- Acessibilidade e demais regras do Governo
+- Ao fazer busca a opção “macroeconômico” já está selecionada (devia ser genérico)
+
