@@ -171,7 +171,7 @@ O GitLab CI é uma parte do GitLab, um aplicativo da Web com uma API que armazen
 ![](https://github.com/ipea/ipeaDATA_20/blob/master/GitArquit.jpg?raw=true)
 
  
- ## Comparação entre as ferramentas
+ ### Comparação entre as ferramentas
  A tabela possui dezoito critérios para mostrar relação e comparação as CI
  
  ![Ciclo Básico de integração Contínua](https://github.com/BrunoRangel30/Testes/blob/master/tabela%20de%20compar%C3%A7%C3%A3o.PNG?raw=true")
