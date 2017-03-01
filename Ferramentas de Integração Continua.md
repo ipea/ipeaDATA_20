@@ -148,6 +148,28 @@ O preço  vem em vários pacotes de atualização com a opção de adicionar a p
 ###Desvantagens
  * Possui uma documentação pobre em relação ao seus concorrentes;
  
+ ## GitLab CI
+ 
+  A solução da GilLab para a integração contínua tem como base o GitLab CI, um serviço que gerencia projetos/builds e que é parte do **GitLab.com**. O **GitLab Runner** é responsável por processar os builds, executar os testes e fornecer acesso ao GitLab CI através de uma API. O GitLab CI fornece funcionalidades essenciais para a integração contínua, como a paralelização de build, logging em tempo real, testes versionados, etc.
+  
+### Vantagens
+
+* Os testes rodam de maneira distribuída em máquina separadas e é possível adicionar quantas máquinas forem 
+necessárias para o projeto.
+* Cada build pode ser separada em múltiplos jobs rodando em máquinas separadas.
+* Um link na solicitação de mesclagem leva ao log de compilação atual que atualiza dinamicamente;
+* O arquivo **.gitlab-ci.yml** armazena os testes permitindo que todos contribuam com mudanças e garantam que todos os ramos obtenham os testes de que precisam.
+
+###Desvantagens
+
+
+
+### Arquitetura
+O GitLab CI é uma parte do GitLab, um aplicativo da Web com uma API que armazena seu estado em um banco de dados. Ele gerencia projetos/ builds e fornece uma interface de usuário agradável, além de todos os recursos do GitLab. O GitLab Runner é uma aplicação que processa compilações. Ele pode ser implantado separadamente e funciona com o GitLab CI através de uma API. Para executar testes, você precisa de pelo menos uma instância do GitLab e um GitLab Runner .
+
+
+
+ 
  ##Comparação entre as ferramentas
  A tabela possui dezoito critérios para mostrar relação e comparação as CI
  
