@@ -162,15 +162,16 @@ necessárias para o projeto.
 
 ###Desvantagens
 
+*  Para usá-lo com outro serviço (como GitHub ou Bitbucket) é necessário implementar ou buscar uma solução desenvolvidas por terceiros. Isso acrescenta custo adicional e sobrecarga de manutenção.
 
 
 ### Arquitetura
 O GitLab CI é uma parte do GitLab, um aplicativo da Web com uma API que armazena seu estado em um banco de dados. Ele gerencia projetos/ builds e fornece uma interface de usuário agradável, além de todos os recursos do GitLab. O GitLab Runner é uma aplicação que processa compilações. Ele pode ser implantado separadamente e funciona com o GitLab CI através de uma API. Para executar testes, você precisa de pelo menos uma instância do GitLab e um GitLab Runner .
 
-
+![](https://github.com/ipea/ipeaDATA_20/blob/master/GitArquit.jpg?raw=true)
 
  
- ##Comparação entre as ferramentas
+ ## Comparação entre as ferramentas
  A tabela possui dezoito critérios para mostrar relação e comparação as CI
  
  ![Ciclo Básico de integração Contínua](https://github.com/BrunoRangel30/Testes/blob/master/tabela%20de%20compar%C3%A7%C3%A3o.PNG?raw=true")
