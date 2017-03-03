@@ -17,6 +17,10 @@ _(anotações de nossa reunião de hoje, vão complementando)_
 1. de fácil manutenção
 1. programação bem documentada
 
+## Referências de boas práticas
+
+- [Data on the Web Best Practices: W3C Recommendation](https://www.w3.org/TR/dwbp/)
+
 ## Problemas site ipeadata1.0
 _(anotações reunião de hoje, complementem)_
 
