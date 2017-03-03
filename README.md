@@ -1,4 +1,7 @@
 # ipeaDATA 2.0
+
+[![Stories in Ready](https://badge.waffle.io/ipea/ipeaDATA_20.png?label=ready&title=Ready)](https://waffle.io/ipea/ipeaDATA_20)
+
 O ipeaDATA 2.0 é um projeto para a reformulação do site do ipeaDATA 1.0
 
 ## Princípios
