@@ -145,7 +145,7 @@ O preço  vem em vários pacotes de atualização com a opção de adicionar a p
 * Permite que os desemvolvedores escrevam seus scripts para implantar e gerenciar sua infraestrutura;
 * Boa integração com a Amazon Web Services;
 
-###Desvantagens
+### Desvantagens
  * Possui uma documentação pobre em relação ao seus concorrentes;
  
  ## GitLab CI
@@ -160,7 +160,7 @@ necessárias para o projeto.
 * Um link na solicitação de mesclagem leva ao log de compilação atual que atualiza dinamicamente;
 * O arquivo **.gitlab-ci.yml** armazena os testes permitindo que todos contribuam com mudanças e garantam que todos os ramos obtenham os testes de que precisam.
 
-###Desvantagens
+### Desvantagens
 
 *  Para usá-lo com outro serviço (como GitHub ou Bitbucket) é necessário implementar ou buscar uma solução desenvolvidas por terceiros. Isso acrescenta custo adicional e sobrecarga de manutenção.
 
@@ -180,7 +180,7 @@ O GitLab CI é uma parte do GitLab, um aplicativo da Web com uma API que armazen
 * **Exibir Relatório**: informa para a equipe sobre as mudanças súbitas na qualidade do código. Portanto, os relatórios devem ser preferencialmente visíveis diretamente no ambiente do CI / CD e não em uma página separada ou como um relatório para download.
 Com o GitLab esta função é bem limitada, só é possível extrair uma parte específica a partir da saída de compilação / teste do console. Em contraste, o Jenkins tem a capacidade de exibir o relatório de compilação ou teste diretamente em sua página de pipeline.
 
- * **Gerencimento de usuário**: Um gerenciamento de permissão herdado do gerenciador de repositório é útil para grupos maiores de desenvolvedores ou organizações nos quais você não deseja definir individualmente as permissões de cada usuário para cada serviço (isto é, repositório e ferramenta CI / CD). Esse recurso é integrado ao GitLab com o GitLab CI combinado. Por outro lado, como o Jenkins não vem com um gerenciador de repositório interno e não tem a capacidade de incorporar diretamente permissões entre o gerenciador de repositórios e a plataforma CI / CD.
+* **Gerencimento de usuário**: Um gerenciamento de permissão herdado do gerenciador de repositório é útil para grupos maiores de desenvolvedores ou organizações nos quais você não deseja definir individualmente as permissões de cada usuário para cada serviço (isto é, repositório e ferramenta CI / CD). Esse recurso é integrado ao GitLab com o GitLab CI combinado. Por outro lado, como o Jenkins não vem com um gerenciador de repositório interno e não tem a capacidade de incorporar diretamente permissões entre o gerenciador de repositórios e a plataforma CI / CD.
  
  
 * **Suporte a Plugins**: são importantes quando desejamos implemetar uma funcionalidade que esta disponivel parcialmente ou mesmo totalmente ausente. Caso houver um plugin disponivel é so utiliza-lo. O Jenkins tem suporte total para plugins, escrito na linguagem Java amplamente difundida. Em contraste, GitLab CI atualmente conta com poucos plugins.
