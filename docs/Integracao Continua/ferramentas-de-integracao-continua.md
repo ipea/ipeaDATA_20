@@ -170,7 +170,7 @@ O GitLab CI é uma parte do GitLab, um aplicativo da Web com uma API que armazen
 
 ![](https://github.com/ipea/ipeaDATA_20/blob/master/GitArquit.jpg?raw=true)
 
- ### Jenkins VS GitLab CI  
+### Jenkins VS GitLab CI  
  
  Os recursos padrão que definem o processo de integração e implantação contínua, como compilações, testes e implantações automatizadas, obviamente, são suportados por ambas as soluções.
  
