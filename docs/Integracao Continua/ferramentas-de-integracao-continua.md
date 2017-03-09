@@ -170,8 +170,22 @@ O GitLab CI é uma parte do GitLab, um aplicativo da Web com uma API que armazen
 
 ![](https://github.com/ipea/ipeaDATA_20/blob/master/GitArquit.jpg?raw=true)
 
+ ### Jenkins VS GitLab CI  
  
- ### Comparação entre as ferramentas
+ Os recursos padrão que definem o processo de integração e implantação contínua, como compilações, testes e implantações automatizadas, obviamente, são suportados por ambas as soluções.
+ 
+ * **Painel de controle**: é necessário verificar o número de compilações que tiveram sucesso ou falharam, quando a última compilação teve êxito ou falhou e, de preferência, quais partes de um pipeline tiveram êxito ou falharam. O Jenkins atende bem . O GitLab CI  só mostra a última compilação na lista de projetos.
+ Integração de relatórios
+
+* **Exibir Relatório**: informa para a equipe sobre as mudanças súbitas na qualidade do código. Portanto, os relatórios devem ser preferencialmente visíveis diretamente no ambiente do CI / CD e não em uma página separada ou como um relatório para download.
+Com o GitLab esta função é bem limitada, só é possível extrair uma parte específica a partir da saída de compilação / teste do console. Em contraste, o Jenkins tem a capacidade de exibir o relatório de compilação ou teste diretamente em sua página de pipeline.
+
+ * **Gerencimento de usuário**: Um gerenciamento de permissão herdado do gerenciador de repositório é útil para grupos maiores de desenvolvedores ou organizações nos quais você não deseja definir individualmente as permissões de cada usuário para cada serviço (isto é, repositório e ferramenta CI / CD). Esse recurso é integrado ao GitLab com o GitLab CI combinado. Por outro lado, como o Jenkins não vem com um gerenciador de repositório interno e não tem a capacidade de incorporar diretamente permissões entre o gerenciador de repositórios e a plataforma CI / CD.
+ 
+ 
+* **Suporte a Plugins**: são importantes quando desejamos implemetar uma funcionalidade que esta disponivel parcialmente ou mesmo totalmente ausente. Caso houver um plugin disponivel é so utiliza-lo. O Jenkins tem suporte total para plugins, escrito na linguagem Java amplamente difundida. Em contraste, GitLab CI atualmente conta com poucos plugins.
+ 
+ ### Comparação entre as  demais ferramentas
  A tabela possui dezoito critérios para mostrar relação e comparação as CI
  
  ![Ciclo Básico de integração Contínua](https://github.com/BrunoRangel30/Testes/blob/master/tabela%20de%20compar%C3%A7%C3%A3o.PNG?raw=true")
