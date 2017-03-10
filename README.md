@@ -1,8 +1,6 @@
 # ipeaDATA 2.0
 
-[![Issues em andamento](https://badge.waffle.io/ipea/ipeaDATA_20.png?label=em andamento&title=Issues em Andamento)](https://waffle.io/ipea/ipeaDATA_20)
-
-[![Issues Pendentes](https://badge.waffle.io/ipea/ipeaDATA_20.png?label=pendente&title=Issues Pendentes)](https://waffle.io/ipea/ipeaDATA_20)
+[![Issues em andamento](https://badge.waffle.io/ipea/ipeaDATA_20.png?label=em andamento&title=Issues em Andamento)](https://waffle.io/ipea/ipeaDATA_20) [![Issues Pendentes](https://badge.waffle.io/ipea/ipeaDATA_20.png?label=pendente&title=Issues Pendentes)](https://waffle.io/ipea/ipeaDATA_20)
 
 O ipeaDATA 2.0 é um projeto para a reformulação do site do ipeaDATA 1.0
 
