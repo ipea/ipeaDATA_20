@@ -1,11 +1,21 @@
-// import React from 'react';
+ import React from 'react';
 // import {Tab, Row, Col,Nav,NavItem, NavDropdown, MenuItem, Button, ButtonGroup, DropdownButton} from 'react-bootstrap'
 
 
 
-// class Tabs extends React.Component {
-//   render(){
-//     return (
+ class Tabs extends React.Component {
+   render(){
+     return (
+    <div className="col-sm-9 col-sm-offset-2">
+      <ul className="nav nav-pills">
+        <li role="presentation"><a href="macroeconomico.html">macroeconomico</a></li>
+        <li role="presentation"><a href="regional.html">Regional</a></li>
+        <li role="presentation"><a href="social.html">Social</a></li>
+      </ul>
+    </div>
+
+
+
 //       <Tab.Container id="tabs-with-dropdown" defaultActiveKey="first">
 //       <Row className="clearfix">
 //         <Col sm={2}>
@@ -82,10 +92,10 @@
 //         </Col>
 //       </Row>
 //     </Tab.Container>
-//       )
+       )
 
-//   }
-// }
+   }
+}
 
-// export default Tabs;
+ export default Tabs;
 
