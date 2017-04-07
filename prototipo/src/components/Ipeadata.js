@@ -9,11 +9,12 @@ class Ipeadata extends React.Component {
 		return (
 			<div className="Ipeadata">
 				<div className="Navbar2">
-					<Navbar2 navname="Ipeadata 2.0"/>
+					<Navbar2 navname="Ipeadata"/>
 				</div>
 				<div className="Menu">
-					<Menu/>
-					<Tabs/>
+					<Menu menuname="Ipeadata"/>
+					<Tabs tabname1="Macroeconomico" tabname2="Regional" tabname3="Social" />
+					
 				</div>
 				<div className="Series">
 					<Series/>
