@@ -5,7 +5,7 @@ import Tabs from './Tabs'
 import Series from './Series'
 import Jumbotron from './Jumbotron'
 
-class Ipeadata extends React.Component {
+class Social extends React.Component {
 	render(){
 		return (
 			<div className="Ipeadata">
@@ -13,12 +13,12 @@ class Ipeadata extends React.Component {
 					<Navbar2 navname="Ipeadata"/>
 				</div>
 				<div className="Menu">
-					<Menu menuname="Ipeadata"/>
-					<Tabs tabname1="Macroeconomico" tabname2="Regional" tabname3="Social" />
+					<Menu menuname="Social"/>
+					<Tabs tabname1="Ipeadata" tabname2="Macroeconomico" tabname3="Regional" />
 
 				</div>
 				<div className="Jumbotron" >
-				<Jumbotron title="Bem vindo ao Ipeadata!"/>	
+				<Jumbotron title="Bem vindo ao Social"/>	
 					
 				</div>
 			
@@ -28,7 +28,7 @@ class Ipeadata extends React.Component {
 	}
 }
 
-export default Ipeadata;
+export default Social;
 
 
 

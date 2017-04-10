@@ -1,27 +1,30 @@
 import React from 'react';
 import { render } from 'react-dom';
+import {BrowserRouter, Match, Miss} from 'react-router'
 
-//import {Grid, Col} from 'react-bootstrap'
-
-//import Navbar from './components/Navbar'
-// import Tabs from './components/Tabs'
-// import Menu from './components/Menu'
-//import Tabs from './components/Tabs'
 import Ipeadata from './components/Ipeadata'
-//require('bootstrap')
-//require("../node_modules/bootstrap/dist/js/bootstrap.js")
-//require("../node_modules/bootstrap/dist/css/bootstrap.css")
-// require("../node_modules/jquery/dist/jquery.js")
+import Macroeconomico from './components/Macroeconomico'
+import Regional from './components/Regional'
+import Social from './components/Social'
+import Notfound from './components/Notfound'
 
-//require("../node_modules/bootstrap/dist/js/bootstrap.js")
-//require("../node_modules/bootstrap/dist/css/bootstrap.css")
-//require("./styles/main.css")
+const Root = () => {
+	return(
+	<BrowserRouter>
+		<div>
+			<Match exactly pattern="/ipeadata" component={Ipeadata}/>
+			<Match exactly pattern="/macroeconomico" component={Macroeconomico}/>
+			<Match exactly pattern="/regional" component={Regional}/>
+			<Match exactly pattern="/social" component={Social}/>
+			<Miss component={Notfound}/>
+
+		</div>
+	</BrowserRouter>
+	)
 
 
-render(<Ipeadata/>, document.querySelector('#main'));
+}
 
-//render(<Tabs/>, document.querySelector('#main2'));
-//render(<Navbar/>, document.querySelector('#main'));
-// render(<Tabs/>, document.querySelector('#main2'));
-// render(<Menu/>, document.querySelector('#main3'));
+
+render(<Root/>, document.querySelector('#main'));
 
