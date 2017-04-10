@@ -7,18 +7,29 @@
 
 import React from 'react';
 import { render} from 'react-dom';
-//import {Clearfix,MenuItem} from 'react-bootstrap';
+import {getFunName} from '../helpers';
 
 
 
 
 class StorePicker extends React.Component {
+    
+    goToStore(event){
+        event.preventDefault();
+        console.log('mudança de url');
+        console.log(this.storeInput);
+        
+    }
+    
+    
+    
 
     render() {
         return(
-                <form className="store-selector" >
-                    <h2>funciona</h2>
-                    <input type="text" required placeholder="Loja" />
+                <form className="store-selector" onSubmit={(e)=>this.goToStore(e)}>
+                    <h2>Bem vindo</h2>
+                    <input type="text" required placeholder="Loja" defaultValue={getFunName()}
+                    ref={(input) => {this.storeInput=input}}/>
                     <button type="submit"> Visite nossa loja </button>
                 </form>
 
