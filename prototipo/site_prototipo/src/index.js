@@ -9,6 +9,7 @@ import App from './components/App';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
-    render (<App/>, document.querySelector('#main'));
+
+render ( <MuiThemeProvider><App/></MuiThemeProvider>, document.querySelector('#main'));
        
        

@@ -16,7 +16,6 @@ import RaisedButton from 'material-ui/RaisedButton';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 
 
-
  
 
 export default class ToolbarExamplesSimple extends React.Component {

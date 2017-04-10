@@ -8,8 +8,9 @@
 import React from 'react';
 import { render} from 'react-dom';
 import Header from './Header';
-import Inventory from './Inventory';
-import Order from './Order';
+//import Inventory from './Inventory';
+//import Order from './Order';
+import MenuDropdow from './MenuDropdow';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
@@ -17,16 +18,17 @@ class App extends React.Component {
 
     render() {
         return(
-                <MuiThemeProvider>
-                   <Order />
-        </MuiThemeProvider>
-                    
-                   
-                )
+ 
+                <div>
+                <MenuDropdow/>
+                <Header/>
+               </div>
+
+                );
     }
 }
 
 export default App;
-    
-    
+
+
     
