@@ -3,22 +3,25 @@
 
 
  class Tabs extends React.Component {
-  
-  goTotab(event){
-    event.preventDefault();
-    console.log('estou aqui');
-  }
-
-
    render(){
      return (
-    <div className="col-sm-9 col-sm-offset-2">
-    	<ul className="nav nav-pills">
-	        <li role="presentation"><a href={'/' + this.props.tabname1}>{this.props.tabname1}</a></li>
-	        <li role="presentation"><a href={'/' + this.props.tabname2}>{this.props.tabname2}</a></li>
-	        <li role="presentation"><a href={'/' + this.props.tabname3}>{this.props.tabname3}</a></li>	        
-    	</ul>
-    </div>
+    
+      <ul className="nav nav-pills">
+        <li className="dropdown">
+          <a href={'/' + this.props.tabname1} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname1} <b className="caret"></b></a>
+          <ul className="dropdown-menu" id="menu1">
+            <li>
+                <a href="#">2-level Menu <i className="icon-arrow-right"></i></a>
+                <ul className="dropdown-menu sub-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Another action</a></li>
+          </ul>
+        </li>
+      </ul>    
+ 
 
        )
 

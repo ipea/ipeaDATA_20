@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar2 from './Navbar2'
 import Menu from './Menu'
 import Tabs from './Tabs'
-import Series from './Series'
+//import Series from './Series'
 import Jumbotron from './Jumbotron'
 
 class Ipeadata extends React.Component {
@@ -14,8 +14,10 @@ class Ipeadata extends React.Component {
 				</div>
 				<div className="Menu">
 					<Menu menuname="Ipeadata"/>
+				</div>
+				<div className="col-sm-9 col-sm-offset-2">
 					<Tabs tabname1="Macroeconomico" tabname2="Regional" tabname3="Social" />
-
+				
 				</div>
 				<div className="Jumbotron" >
 				<Jumbotron title="Bem vindo ao Ipeadata!"/>	

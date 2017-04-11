@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar2 from './Navbar2'
 import Menu from './Menu'
 import Tabs from './Tabs'
-import Series from './Series'
+//import Series from './Series'
 import Jumbotron from './Jumbotron'
 
 class Social extends React.Component {
