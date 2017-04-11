@@ -13,7 +13,7 @@ class Header extends React.Component {
     render() {
         return(
                 <AppBar
-            title="Title"
+            title="IpeaData"
             iconClassNameRight="muidocs-icon-navigation-expand-more"/>
                 );
 
