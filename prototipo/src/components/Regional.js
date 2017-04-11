@@ -14,14 +14,15 @@ class Regional extends React.Component {
 				</div>
 				<div className="Menu">
 					<Menu menuname="Regional"/>
-					<Tabs tabname1="Ipeadata" tabname2="Macroeconomico" tabname3="Social" />
+				</div>
 
+				<div className="col-sm-9 col-sm-offset-2">
+					<Tabs tabname1="Ipeadata" tabname2="Macroeconomico" tabname3="Social" />
 				</div>
+
 				<div className="Jumbotron" >
-				<Jumbotron title="Bem vindo ao Regional"/>	
-					
+					<Jumbotron title="Bem vindo ao Regional"/>	
 				</div>
-			
 			</div>
 
 		)
