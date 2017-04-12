@@ -1,0 +1,44 @@
+import React from 'react';
+import Navbar2 from './Navbar2'
+import Menu from './Menu'
+import Tabs from './Tabs'
+//import Series from './Series'
+import Jumbotron from './Jumbotron'
+
+class Regional extends React.Component {
+	render(){
+		return (
+			<div className="Ipeadata">
+				<div className="Navbar2">
+					<Navbar2 navname="Ipeadata"/>
+				</div>
+				<div className="Menu">
+					<Menu menuname="Regional"/>
+				</div>
+
+				<div className="col-sm-9 col-sm-offset-2">
+					<Tabs tabname1="Ipeadata" tabname2="Macroeconomico" tabname3="Social" />
+				</div>
+
+				<div className="Jumbotron" >
+					<Jumbotron title="Bem vindo ao Regional"/>	
+				</div>
+			</div>
+
+		)
+	}
+}
+
+export default Regional;
+
+
+
+
+
+
+
+
+
+
+
+
