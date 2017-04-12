@@ -23,9 +23,13 @@ const Navbar2 = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Fale Conosco</a></li>
+            <a href={'/' + props.navname} className="navbar-brand">
+              <img src="logo_ipea.gif"  />
+            </a>
           </ul>
           <form className="navbar-form navbar-right">
-            <input type="text" className="form-control" placeholder="Search..."/>
+            <input type="text" className="form-control" placeholder="Pesquisa..."/>
+            <button type ="submit" className="btn btn-default">Pesquisar</button>
           </form>
         </div>
       </div>

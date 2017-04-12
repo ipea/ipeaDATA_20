@@ -12,6 +12,7 @@ const Root = () => {
 	return(
 	<BrowserRouter>
 		<div>
+			<Match exactly pattern="/" component={Ipeadata}/>		
 			<Match exactly pattern="/ipeadata" component={Ipeadata}/>
 			<Match exactly pattern="/macroeconomico" component={Macroeconomico}/>
 			<Match exactly pattern="/regional" component={Regional}/>

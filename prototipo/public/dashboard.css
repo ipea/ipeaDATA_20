@@ -114,12 +114,26 @@ body {
     padding: 9px 0;
 }
 
+
+/*macroeconomico*/
+
+.dropdown .dropdown-toggle{
+  color: white;
+  background-color: #024e9b;
+}
+
+.dropdown .dropdown-toggle:hover{
+  color: white;
+  background-color: #024e9b;
+}
+
 .dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
     top: 0;
     visibility: hidden;
     margin-top: -1px;
+
 }
 
 .dropdown-menu li:hover .sub-menu {
@@ -132,7 +146,81 @@ body {
 
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
+ 
 }
+
+
+/*Regional*/
+.dropdown2 .dropdown-toggle{
+  color: white;
+    background-color: #7AA623;
+}
+
+.dropdown2 .dropdown-toggle:hover{
+  color: white;
+    background-color: #7AA623;
+}
+
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+    background-color: #024E9B ;
+
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown2:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+    background-color: #024E9B ;
+}
+
+/*Social*/
+.dropdown3 .dropdown-toggle{
+  color: white;
+  background-color: #990303;
+}
+
+.dropdown3 .dropdown-toggle:hover{
+  color: white;
+  background-color: #990303;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+    background-color: #024E9B ;
+
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown3:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+    background-color: #024E9B ;
+}
+
+/**/
+
 
 .navbar .sub-menu:before {
     border-bottom: 7px solid transparent;
@@ -208,4 +296,3 @@ body {
 .navbar-custom .navbar-link:hover {
   color: #bdcedd;
 }
-

@@ -21,7 +21,7 @@
             <li><a href="#">Something else here</a></li>           
           </ul>
         </li>
-          <li className="dropdown">
+          <li className="dropdown2">
           <a href={'/' + this.props.tabname2} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname2} <b className="caret"></b></a>
           <ul className="dropdown-menu" id="menu1">
             <li>
@@ -36,7 +36,7 @@
             <li><a href="#">Something else here</a></li>           
           </ul>
         </li>
-          <li className="dropdown">
+          <li className="dropdown3">
           <a href={'/' + this.props.tabname3} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname3} <b className="caret"></b></a>
           <ul className="dropdown-menu" id="menu1">
             <li>
