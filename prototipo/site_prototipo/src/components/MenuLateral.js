@@ -3,21 +3,20 @@ import Paper from 'material-ui/Paper';
 import Menu from 'material-ui/Menu';
 import MenuItem from 'material-ui/MenuItem';
 
-const style = {
-  display: 'inline-block',
- 
-  
-};
+
 
 const MenuLateral = () => (
         <div id="MenuLateral">
             <div>
-                <Paper style ={style} >
+                <Paper id="role">
                     <Menu>
-                        <MenuItem primaryText="Maps" />
-                        <MenuItem primaryText="Books" />
-                        <MenuItem primaryText="Flights" />
-                        <MenuItem primaryText="Apps" />
+                        <MenuItem primaryText="IpeaData" />
+                        <MenuItem primaryText="O que é" />
+                        <MenuItem primaryText="Equipe Responsável" />
+                        <MenuItem primaryText="Direitos de uso" />
+                        <MenuItem primaryText="Dicas" />
+                        <MenuItem primaryText="Links" />
+                        <MenuItem primaryText="Fale Conosco" />
                     </Menu>
                 </Paper>
             </div>

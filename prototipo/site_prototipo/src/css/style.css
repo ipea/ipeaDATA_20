@@ -3,14 +3,22 @@
 #MenuDropdow{
   width: 80%;
   height: 50px;
-  margin-left: 200px;
+  margin-left: 210px;
   margin-bottom: 200px
 }
     
 #MenuLateral{
     position: absolute;
-    margin-top: -210px;
+    margin-top: -250px;
     
 }
 
-
+#role{
+  display: inline-block;
+   width:220px;
+  
+}
+#Books{
+    
+    width: 88px;
+}
