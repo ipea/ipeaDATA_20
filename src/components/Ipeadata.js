@@ -4,6 +4,7 @@ import Menu from './Menu'
 import Tabs from './Tabs'
 //import Series from './Series'
 import Jumbotron from './Jumbotron'
+import ItemListener from './ItemListener'
 
 class Ipeadata extends React.Component {
 	render(){
@@ -19,8 +20,11 @@ class Ipeadata extends React.Component {
 					<Tabs tabname1="Macroeconomico" tabname2="Regional" tabname3="Social" />
 				
 				</div>
-				<div className="Jumbotron" >
-				<Jumbotron title="Bem vindo ao Ipeadata!"/>	
+				<div className="col-sm-9 col-sm-offset-2" >
+				
+					<ItemListener/>
+				
+				
 					
 				</div>
 			
