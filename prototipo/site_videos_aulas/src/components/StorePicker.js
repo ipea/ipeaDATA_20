@@ -18,7 +18,9 @@ class StorePicker extends React.Component {
         event.preventDefault();
         console.log('mudança de url');
         console.log(this.storeInput);
-        
+        const storeId =this.storeInput.value;
+        this.context.router.transitionTo('/store/$(storeId)');
+                        
     }
     
     
@@ -36,6 +38,12 @@ class StorePicker extends React.Component {
 
                 )
     }
+}
+
+StorePicker.contextTypes={
+    
+    router: React.PropTypes.object
+    
 }
 
 export default StorePicker;
