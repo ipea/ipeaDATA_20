@@ -8,9 +8,11 @@ import Regional from './components/Regional'
 import Social from './components/Social'
 import Notfound from './components/Notfound'
 
+const repo = `/${window.location.pathname.split('/')[1]}`;
+
 const Root = () => {
 	return(
-	<BrowserRouter>
+	<BrowserRouter basename={repo}>
 		<div>
 			<Match exactly pattern="/" component={Ipeadata}/>		
 			<Match exactly pattern="/ipeadata" component={Ipeadata}/>
