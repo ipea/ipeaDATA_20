@@ -16,14 +16,36 @@ import Order from './Order';
 
 class App extends React.Component {
 
+constructor(){
+    super();
+    this.addFishes = this.addFishes.bind(this);
+    this.state={
+        fishes:{},
+        order:{}
+        
+    };
+    
+}
+
+addFishes(fish){
+    //Atualizando o estado do objeto
+    const fishes = {...this.state.fishes};
+    //Adicionando um novo peixe
+    const timestamp = Date.now();
+    fishes[`fish-${timestamp}`] = fish;
+    // setando o estado do peixe
+    this.setState({fishes});
+}
+
     render() {
         return(
                 <div className="catch-of-the-day">
                     <div className="menu">
-                    <Header age="500" coll={true} tagline="Gente passou parametro fina"/>
+                    <Header age="500" coll={true} tagline="Gente passou parametro"/>
                     </div>
                     <Order />
-                    <Inventory />
+                    <Inventory addFishes={this.addFishes}/>
+
                 </div>
 
                 )

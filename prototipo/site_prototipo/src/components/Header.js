@@ -16,34 +16,15 @@ class Header extends React.Component {
 
     render() {
         return(
-                <div>
-                    <AppBar
-                        title="IpeaData"
-                        iconClassNameRight="false"
+                <AppBar
+                    title="IpeaData"
+                    iconClassNameRight="false"
                 
-                        />
-                    <AppBar
-                        title="Title"
-                        iconElementLeft={ < IconButton > <NavigationClose /> < /IconButton>}
-                                        iconElementRight = {<FlatButton label="Save" />} />
-                        <br />
-                        <AppBar
-                            title="Title"
-                            iconElementLeft={ < IconButton > <NavigationClose /> < /IconButton>}
-                                                    iconElementRight = {
-                                                    <IconMenu iconButtonElement={
-                                                                                    <IconButton><MoreVertIcon /></IconButton>
-                                                        }>
-                                                        <MenuItem primaryText="Refresh" />
-                                                        <MenuItem primaryText="Help" />
-                                                        <MenuItem primaryText="Sign out" />
-                                                    </IconMenu>
-                            } />
-                            </div>
-                                                                    );
+                    />
+                );
 
 
-                                                        }
-                                            }
+    }
+}
 
-                                    export default Header;
+export default Header;

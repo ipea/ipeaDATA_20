@@ -1,0 +1,6 @@
+[0417/151556.003:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: Tentou-se acessar um processo de saída.  (0xc000010a)
+[0417/151556.019:ERROR:process_info.cc(116)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64>>(void *,unsigned __int64,struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits64> *): Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0417/151556.034:ERROR:process_info.cc(559)] ReadProcessData failed
+[0417/151556.034:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7fef3df3970 of 12 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0417/151556.034:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0417/151556.034:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed

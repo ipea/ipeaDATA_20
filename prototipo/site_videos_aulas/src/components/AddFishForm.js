@@ -10,28 +10,34 @@ import { render} from 'react-dom';
 class AddFishForm extends React.Component {
 
     createFish(event) {
+        // criação de objeto peixe
+        console.log(event);
+
         event.preventDefault();
         const fish = {
             name: this.name.value,
+            uname: this.uname.value,
             price: this.price.value,
             status: this.status.value,
             desc: this.desc.value,
             image: this.image.value,
-            name: this.name.value,
+
         }
+        this.props.addFishes(fish);
         console.log(fish);
+        this.fishForm.reset();
     }
 
     render() {
         return(
-                <form className="fish-edit" onSubmit={(e) => this.createFish(e)}>
-                    <input ref={(input) => this.name = input} type="text" placeholder="Nome do Peixe"/>
-                    <input ref={(input) => this.price = input}type="text" placeholder="Preço do Peixe"/>
-                    <select ref={(input) => this.status = input}type="text">
+                <form ref = {(input) => this.fishForm = input} className="fish-edit" onSubmit={(e) => this.createFish(e)}>
+                    <input ref={(input) => this.name = input} type="text" placeholder="Nome do Peixe"/>                            
+                    <input ref={(input) => this.price = input} type="text" placeholder="Preço do Peixe"/>
+                    <select ref={(input) => this.status = input} type="text">
                         <option value="available">Fresco</option>
                         <option value="unavailable">Esgotado</option>
                     </select> 
-                    <textarea ref={(input) => this.desc = input}placeholder="Peixe Desc"></textarea>
+                    <textarea ref={(input) => this.desc = input} placeholder="PeixeDesc"></textarea>
                     <input ref={(input) => this.image = input}type="text" placeholder="imagem do Peixe"/>
                     <button type="submit"> Adicionar mais itens</button>
                 </form>
