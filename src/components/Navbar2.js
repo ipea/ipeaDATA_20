@@ -2,9 +2,9 @@ import React from 'react';
 //import {Navbar, FormGroup, FormControl, Button} from 'react-bootstrap'
 //import $ from 'jquery'
 
-// class Navbar2 extends React.Component {
-// 	render(){
-const Navbar2 = (props) => {
+class Navbar2 extends React.Component {
+	render(){
+//const Navbar2 = (props) => {
 	return (
     <nav className="navbar navbar-custom navbar-fixed-top">
       <div className="container-fluid">
@@ -15,7 +15,7 @@ const Navbar2 = (props) => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a href={'/' + props.navname} className="navbar-brand">
+          <a href={'/' + this.props.navname} className="navbar-brand">
           <img src="logo.gif"  />
           </a>
         </div>
@@ -23,7 +23,7 @@ const Navbar2 = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Fale Conosco</a></li>
-            <a href={'/' + props.navname} className="navbar-brand">
+            <a href={'/' + this.props.navname} className="navbar-brand">
               <img src="logo_ipea.gif"  />
             </a>
           </ul>
@@ -35,7 +35,7 @@ const Navbar2 = (props) => {
       </div>
     </nav>
 		)
-  
+}  
 }
 
 export default Navbar2;

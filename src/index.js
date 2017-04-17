@@ -8,17 +8,17 @@ import Regional from './components/Regional'
 import Social from './components/Social'
 import Notfound from './components/Notfound'
 
-const repo = `/${window.location.pathname.split('/')[1]}`;
+//const repo = `/${window.location.pathname.split('/')[1]}`;
 
 const Root = () => {
 	return(
-	<BrowserRouter basename={repo}>
+	<BrowserRouter >
 		<div>
 			<Match exactly pattern="/" component={Ipeadata}/>		
-			<Match exactly pattern="/ipeadata" component={Ipeadata}/>
-			<Match exactly pattern="/macroeconomico" component={Macroeconomico}/>
-			<Match exactly pattern="/regional" component={Regional}/>
-			<Match exactly pattern="/social" component={Social}/>
+			<Match exactly pattern="/Ipeadata" component={Ipeadata}/>
+			<Match exactly pattern="/Macroeconomico" component={Macroeconomico}/>
+			<Match exactly pattern="/Regional" component={Regional}/>
+			<Match exactly pattern="/Social" component={Social}/>
 			<Miss component={Notfound}/>
 
 		</div>
