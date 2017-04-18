@@ -15,7 +15,7 @@ export default class MenuDropdow extends React.Component {
   render() {
     return (
             <div id="MenuDropdow">
-      <DropDownMenu value={this.state.value} onChange={this.handleChange} openImmediately={false}>
+      <DropDownMenu value={this.state.value} onChange={this.handleChange} openImmediately={true}>
         <MenuItem value={1} primaryText="macroeconômico" />
         <MenuItem value={2} primaryText="" />
         <MenuItem value={3} primaryText="" />
@@ -23,7 +23,7 @@ export default class MenuDropdow extends React.Component {
         <MenuItem value={5} primaryText="" />
       </DropDownMenu>
       
-      <DropDownMenu value={this.state.value} onChange={this.handleChange} openImmediately={false}>
+      <DropDownMenu value={this.state.value} onChange={this.handleChange} openImmediately={true}>
         <MenuItem value={1} primaryText="regional" />
         <MenuItem value={2} primaryText="" />
         <MenuItem value={3} primaryText="" />
@@ -31,7 +31,7 @@ export default class MenuDropdow extends React.Component {
         <MenuItem value={5} primaryText="" />
       </DropDownMenu>
       
-      <DropDownMenu value={this.state.value} onChange={this.handleChange} openImmediately={false}>
+      <DropDownMenu value={this.state.value} onChange={this.handleChange} openImmediately={true}>
         <MenuItem value={1} primaryText="social" />
         <MenuItem value={2} primaryText="" />
         <MenuItem value={3} primaryText="" />
