@@ -1,3 +1,39 @@
+  
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #024E9B;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+
 /*
  * Base structure
  */
@@ -37,7 +73,6 @@ body {
   .sidebar {
     position: fixed;
     top: 51px;
-    bottom: 0;
     left: 0;
     z-index: 1000;
     display: block;
@@ -54,12 +89,18 @@ body {
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px;
+  margin-top: -11px;
+
 }
 .nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  
 }
 .nav-sidebar > .active > a,
+
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
@@ -120,10 +161,14 @@ body {
 .dropdown .dropdown-toggle{
   color: white;
   background-color: #024e9b;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  width: 200px;
+
 }
 
 .dropdown .dropdown-toggle:hover{
-  color: white;
+  
   background-color: #024e9b;
 }
 
@@ -133,6 +178,7 @@ body {
     top: 0;
     visibility: hidden;
     margin-top: -1px;
+    color: white;
 
 }
 
@@ -154,10 +200,13 @@ body {
 .dropdown2 .dropdown-toggle{
   color: white;
     background-color: #7AA623;
+    border-top-left-radius: 1em;
+  padding: 5px; 
+  width: 200px;
 }
 
 .dropdown2 .dropdown-toggle:hover{
-  color: white;
+  
     background-color: #7AA623;
 }
 
@@ -189,10 +238,13 @@ body {
 .dropdown3 .dropdown-toggle{
   color: white;
   background-color: #990303;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  width: 200px;
 }
 
 .dropdown3 .dropdown-toggle:hover{
-  color: white;
+  
   background-color: #990303;
 }
 
@@ -295,4 +347,50 @@ body {
 }
 .navbar-custom .navbar-link:hover {
   color: #bdcedd;
+}
+
+.jumbotron1{
+  height: 80vh;
+  background-color: #dce8f1;
+
+}
+
+.jumbotron2{
+  height: 80vh;
+  background-color: #e8f0d9;
+
+}
+
+.jumbotron3{
+  height: 80vh;
+  background-color: #F5e6e6;
+
+}
+
+.panel1{ 
+  padding-left: 0px; 
+  padding-right: 0px; 
+  margin-top: 10px;
+  background-color: #dce8f1;
+  height:  600px; 
+}
+.panel2{ 
+  padding-left: 0px; 
+  padding-right: 0px; 
+  margin-top: 10px;
+  background-color: #e8f0d9;
+  height:  600px; 
+}
+.panel3{ 
+  padding-left: 0px; 
+  padding-right: 0px; 
+  margin-top: 10px;
+  background-color: #F5e6e6;
+  height:  600px; 
+}
+
+.nav-pills {
+margin-bottom: -8px;
+margin-left: -14px;
+
 }

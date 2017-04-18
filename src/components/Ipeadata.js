@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar2 from './Navbar2'
 import Menu from './Menu'
 import Tabs from './Tabs'
-//import Series from './Series'
+import Series from './Series'
 import Jumbotron from './Jumbotron'
 import ItemListener from './ItemListener'
 import sampleFishes from '../sample-fishes'
@@ -51,13 +51,7 @@ class Ipeadata extends React.Component {
 				
 				</div>
 				<div className="col-sm-9 col-sm-offset-2" >
-					<ul className="list-of-fishes">
-            		{
-             		 Object
-                		.keys(this.state.fishes)
-                		.map(key => <Fish key={key} details={this.state.fishes[key]} />)
-            		}			
-          			</ul>
+					<Series/> 
 				</div>
 			
 			</div>
@@ -66,6 +60,13 @@ class Ipeadata extends React.Component {
 	}
 }
 
+// <ul className="list-of-fishes">
+//             		{
+//              		 Object
+//                 		.keys(this.state.fishes)
+//                 		.map(key => <Fish key={key} details={this.state.fishes[key]} />)
+//             		}			
+//           			</ul>
 export default Ipeadata;
 
 

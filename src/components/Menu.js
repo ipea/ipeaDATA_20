@@ -14,7 +14,7 @@
       <div className="row">
         <div className="col-sm-3 col-md-2 sidebar">
           <ul className="nav nav-sidebar">
-            <li className="active"><a href="index.html">{this.props.menuname} <span className="sr-only">(current)</span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname} <span className="sr-only">(current)</span></a></li>
             <button className="btn btn-default" onClick={this.props.loadSamples}>Adicionar</button>
             
           </ul>
