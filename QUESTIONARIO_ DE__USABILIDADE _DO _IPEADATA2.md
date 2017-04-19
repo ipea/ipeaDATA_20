@@ -108,34 +108,11 @@
 <br>
 <br>
 
-
-2- Quanto aos realces (ícones, cores, letras, negrito) na tela:
-
-- [ ] Não possui 
-- [ ] Poucos 
-- [ ] Suficientes 
-- [ ] Exagerados 
-
-
-3- Quanto à forma e ao tamanho das letras, é de:
-- [ ] Fácil leitura 
-- [ ] Difícil leitura 
-
 4- Quanto à organização da informação no portal:
 - [ ] Clara 
 - [ ] Razoavelmente clara 
 - [ ] Confusa   
 
-5- O site informa o usuário sobre o que está acontecendo (Exemplo: "a execução está em andamento")?
-
- - [ ] Sempre 
- - [ ] Às vezes 
- - [ ] Nunca 
-
-6- Apresenta uma distribuição uniforme do conteúdo, levando em consideração o espaço disponível:
-- [ ] Sempre 
-- [ ] Às vezes 
-- [ ] Nunca 
 
 7- Ao realizar a consulta de uma série seja ela macroeconômica, social ou regional o resultado é apresentado de forma clara e objetiva?
 
