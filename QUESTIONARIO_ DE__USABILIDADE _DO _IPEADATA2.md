@@ -80,12 +80,14 @@
 - [ ] Público Externo (visitantes)
 
  <br>
- <br>
- <br>                                                                   
+ <br>   
+ 
 1- A utilização do portal satisfaz as suas expectativas? <br>  
 <br>
+
 2- O portal costuma trazer resultados positivos? <br>                    
 <br>
+
 3- O portal é visualmente atrativo?	<br>
 <br>
 
