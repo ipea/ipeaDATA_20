@@ -81,12 +81,11 @@
 
 
 <br>
-
+ Para as perguntas abaixo avalie em uma escala de 1-10 <br>
 1- Utilizar o Portal do IPEADATA:<br>
                                                                    
-  1.1 Satisfaz as suas expectativas?	<br>  
-  Avalie em uma escala de 1-10 <br>
- -------------------------------------
+2- Satisfaz as suas expectativas?	<br>  
+
 
   1.2 Costuma trazer resultados positivos?		   <br>                    
 - [ ] SIM <br>
