@@ -80,88 +80,33 @@
 - [ ] Público Externo (visitantes)
 
 
-<br>
- Para as perguntas abaixo avalie em uma escala de 1-10 <br>
-1- Utilizar o Portal do IPEADATA:<br>
-                                                                   
-2- Satisfaz as suas expectativas?	<br>  
-
-
-  1.2 Costuma trazer resultados positivos?		   <br>                    
-- [ ] SIM <br>
-- [ ] NAO <br>
-
- 1.3 É visualmente atrativo?	  <br>
-- [ ] SIM <br>
-- [ ] NAO <br>
-
- 1.4 Normalmente possibilita a realização das tarefas desejadas?   <br>
-- [ ] SIM <br>
-- [ ] NAO <br>
-<br>
-<br>
-
-
-### Interface do Portal
-  
-<br>
-<br>
-
-4- Quanto à organização da informação no portal:
-- [ ] Clara 
-- [ ] Razoavelmente clara 
-- [ ] Confusa   
-
-
-7- Ao realizar a consulta de uma série seja ela macroeconômica, social ou regional o resultado é apresentado de forma clara e objetiva?
-
-- [ ] Sempre 
-- [ ] Às vezes 
-- [ ] Nunca 
-- [ ] confuso
-
-
- ### Tratamento de erros
- <br>
-<br>
-
-
- 8- O material de ajuda disponibilizado pelo site:
-- [ ] Ajuda sempre 
-- [ ] Às vezes ajuda 
-- [ ] Não ajuda 
-- [ ] Não Possui
-
-9- Quanto ao texto, as mensagens de erro são:
-
-- [ ] Claras 
-- [ ] Razoavelmente claras 
-- [ ] Confusas 
-- [ ] Não possui
-
-10- Você costuma entrar em contato com o "Fale conosco" ao ter problemas no portal?
-
-- [ ] Sempre 
-- [ ] Às vezes 
-- [ ] Nunca
-
-
- ### Capacidade do Site
  <br>
  <br>
-
-
- 11- O usuário realiza as tarefas com pouco conhecimento sobre o portal (consegue navegar pelo portal de forma intuitiva, sem a necessidade de ter um conhecimento prévio sobre o portal e suas funcionalidades)?
- 
-- [ ] Realiza facilmente 
-- [ ] Realiza com dificuldade 
-
-12- O site avisa sobre possíveis problemas (instabilidade)?
- - [ ] Sempre 
- - [ ] Às vezes 
- - [ ] Nunca 
-  
-13- O uso do site depende do nível de experiência do usuário?
+ <br>
+ <br>
+ <br>                                                                   
+1- A utilização do portal satisfaz as suas expectativas? <br>  
+<br>
+<br>
+2- O portal costuma trazer resultados positivos? <br>                    
+<br>
+<br>
+3- O portal é visualmente atrativo?	<br>
+<br>
+<br>
+4- Normalmente possibilita a realização das tarefas desejadas? <br>
+<br>
+<br>
+5- Ao realizar a consulta de uma série seja ela macroeconômica, social ou regional o resultado é apresentado de forma clara e objetiva?
+<br>
+<br>
+6- Ao entrar em contato com o "Fale conosco" ao ter problemas no portal, suas dúvidas são bem esclarecidas ?
+<br>
+<br>
+7- O usuário realiza as tarefas com pouco conhecimento sobre o portal (consegue navegar pelo portal de forma intuitiva, sem a necessidade de ter um conhecimento prévio sobre o portal e suas funcionalidades)?
+<br>
+<br>
+8- O uso do site depende do nível de experiência do usuário?
 - [ ]  Nunca 
 - [ ]  Às vezes 
 - [ ]  Sempre 
