@@ -82,16 +82,16 @@
  <br>
  <br>   
  
-1- A utilização do portal satisfaz as suas expectativas? <br>  
+1- A utilização do portal satisfaz as suas expectativas? 
 <br>
 
-2- O portal costuma trazer resultados positivos? <br>                    
+2- O portal costuma trazer resultados positivos?                   
 <br>
 
-3- O portal é visualmente atrativo?	<br>
+3- O portal é visualmente atrativo?	
 <br>
 
-4- Normalmente possibilita a realização das tarefas desejadas? <br>
+4- Normalmente possibilita a realização das tarefas desejadas? 
 <br>
 
 5- Ao realizar a consulta de uma série seja ela macroeconômica, social ou regional o resultado é apresentado de forma clara e objetiva?
