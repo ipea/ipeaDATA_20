@@ -14,11 +14,11 @@ class Social extends React.Component {
 					<Navbar2 navname="Ipeadata"/>
 				</div>
 				<div className="Menu">
-					<Menu menuname="Social"/>
+					<Menu menuname="Social" menucolor="nav-sidebar3" sidecolor="sidebar3"/>
 				</div>
 
 				<div className="col-sm-9 col-sm-offset-2">
-					<Tabs tabname1="Ipeadata" tabname2="Macroeconomico" tabname3="Regional" />
+					<Tabs tabname1="Ipeadata" tabcolor1="dropdown4" tabname2="Macroeconomico" tabcolor2="dropdown" tabname3="Regional" tabcolor3="dropdown2" />
 				</div>
 				
 				<div className="Jumbotron" >

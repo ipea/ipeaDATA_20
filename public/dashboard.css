@@ -84,27 +84,96 @@ body {
   }
 }
 
-/* Sidebar navigation */
-.nav-sidebar {
+/* Sidebar navigation macroeconomico*/
+.nav-sidebar1 {
   margin-right: -21px; /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px;
   margin-top: -11px;
 
 }
-.nav-sidebar > li > a {
+.nav-sidebar1 > li > a {
   padding-right: 20px;
   padding-left: 20px;
   border-top-left-radius: 1em;
   padding: 5px; 
   
 }
-.nav-sidebar > .active > a,
+.nav-sidebar1 > .active > a,
 
-.nav-sidebar > .active > a:hover,
-.nav-sidebar > .active > a:focus {
+.nav-sidebar1 > .active > a:hover,
+.nav-sidebar1 > .active > a:focus {
   color: #fff;
-  background-color: #428bca;
+  background-color: #024e9b;
+}
+
+/* Sidebar navigation regional*/
+.nav-sidebar2 {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  margin-top: -11px;
+
+}
+.nav-sidebar2 > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  
+}
+.nav-sidebar2 > .active > a,
+
+.nav-sidebar2 > .active > a:hover,
+.nav-sidebar2 > .active > a:focus {
+  color: #fff;
+  background-color: #7AA623;
+}
+
+/* Sidebar navigation social*/
+.nav-sidebar3 {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  margin-top: -11px;
+
+}
+.nav-sidebar3 > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  
+}
+.nav-sidebar3 > .active > a,
+
+.nav-sidebar3 > .active > a:hover,
+.nav-sidebar3 > .active > a:focus {
+  color: #fff;
+  background-color: #990303;
+}
+
+/* Sidebar navigation ipeadata*/
+.nav-sidebar4 {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  margin-top: -11px;
+
+}
+.nav-sidebar4 > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  
+}
+.nav-sidebar4 > .active > a,
+
+.nav-sidebar4 > .active > a:hover,
+.nav-sidebar4 > .active > a:focus {
+  color: #fff;
+  background-color: #47717d;
 }
 
 
@@ -270,6 +339,46 @@ body {
     margin-top: 0;
     background-color: #024E9B ;
 }
+
+/*ipeadata*/
+.dropdown4 .dropdown-toggle{
+  color: white;
+  background-color: #47717d;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  width: 200px;
+}
+
+.dropdown4 .dropdown-toggle:hover{
+  
+  background-color: #47717d;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+    background-color: #47717d ;
+
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown4:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+    background-color: white ;
+}
+
+/**/
+
 
 /**/
 

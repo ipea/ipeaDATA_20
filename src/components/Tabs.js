@@ -6,7 +6,7 @@ import React from 'react';
    render(){
      return (
       <ul className="nav nav-pills">
-        <li className="dropdown">
+        <li className={this.props.tabcolor1}>
           <a href={'/' + this.props.tabname1} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname1} <b className="caret"></b></a>
           <ul className="dropdown-menu" id="menu1">
             <li>
@@ -21,7 +21,7 @@ import React from 'react';
             <li><a href="#">Something else here</a></li>           
           </ul>
         </li>
-          <li className="dropdown2">
+          <li className={this.props.tabcolor2}>
           <a href={'/' + this.props.tabname2} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname2} <b className="caret"></b></a>
           <ul className="dropdown-menu" id="menu1">
             <li>
@@ -36,7 +36,7 @@ import React from 'react';
             <li><a href="#">Something else here</a></li>           
           </ul>
         </li>
-          <li className="dropdown3">
+          <li className={this.props.tabcolor3}>
           <a href={'/' + this.props.tabname3} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname3} <b className="caret"></b></a>
           <ul className="dropdown-menu" id="menu1">
             <li>

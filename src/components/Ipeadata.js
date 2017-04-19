@@ -41,13 +41,13 @@ class Ipeadata extends React.Component {
 		return (
 			<div className="Ipeadata">
 				<div className="Navbar2">
-					<Navbar2 navname="Ipeadata"/>
+					<Navbar2 navname="Ipeadata" menucolor="nav-sidebar4"/>
 				</div>
 				<div className="Menu">
-					<Menu menuname="Ipeadata" loadSamples={this.loadSamples}/>
+					<Menu menuname="Ipeadata" loadSamples={this.loadSamples} menucolor="nav-sidebar4" sidecolor="sidebar4"/>
 				</div>
 				<div className="col-sm-9 col-sm-offset-2">
-					<Tabs tabname1="Macroeconomico" tabname2="Regional" tabname3="Social" />
+					<Tabs tabname1="Macroeconomico" tabcolor1="dropdown" tabname2="Regional" tabcolor2="dropdown2" tabname3="Social" tabcolor3="dropdown3"/>
 				
 				</div>
 				<div className="col-sm-9 col-sm-offset-2" >

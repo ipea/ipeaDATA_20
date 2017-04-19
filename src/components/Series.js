@@ -5,7 +5,7 @@
  		return (  
 
  		<div className=" main">
-          <h2 className="sub-header">Macroeconomico</h2>
+          <h2 className="sub-header">Teste de tabela</h2>
           <div className="table-responsive">
             <table className="table table-striped">
               <thead>

@@ -14,11 +14,11 @@ class Macroeconomico extends React.Component {
 					<Navbar2 navname="Ipeadata"/>
 				</div>
 				<div className="Menu">
-					<Menu menuname="Macroeconomico"/>
+					<Menu menuname="Macroeconomico" menucolor="nav-sidebar1" sidecolor="sidebar1"/>
 				</div>
 
 				<div className="col-sm-9 col-sm-offset-2">
-					<Tabs tabname1="Ipeadata" tabname2="Regional" tabname3="Social" />
+					<Tabs tabname1="Ipeadata" tabcolor1="dropdown4" tabname2="Regional"  tabcolor2="dropdown2" tabname3="Social" tabcolor3="dropdown3"  />
 				</div>
 
 
