@@ -1,33 +1,33 @@
-import React from 'react';
-import { render } from 'react-dom';
-import {BrowserRouter, Match, Miss} from 'react-router'
-
-import Ipeadata from './components/Ipeadata'
-import Macroeconomico from './components/Macroeconomico'
-import Regional from './components/Regional'
-import Social from './components/Social'
-import Notfound from './components/Notfound'
-
-//const repo = `/${window.location.pathname.split('/')[1]}`;
-
-const Root = () => {
-	return(
-	<BrowserRouter >
-		<div>
-			<Match exactly pattern="/" component={Ipeadata}/>		
-			<Match exactly pattern="/Ipeadata" component={Ipeadata}/>
-			<Match exactly pattern="/Macroeconomico" component={Macroeconomico}/>
-			<Match exactly pattern="/Regional" component={Regional}/>
-			<Match exactly pattern="/Social" component={Social}/>
-			<Miss component={Notfound}/>
-
-		</div>
-	</BrowserRouter>
-	)
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
 
 
+import App from './components/App';
+import './css/index.css';
+
+
+
+class Root extends Component {
+  render(){
+    return(
+      <Router>
+        <div>
+          <Route exact path="/" component={App} />
+          <Route path="/:id" component={App} />        
+        </div>
+      </Router>
+    )
+  }
 }
 
 
-render(<Root/>, document.querySelector('#main'));
 
+
+ReactDOM.render(
+  <Root />,
+  document.getElementById('root')
+);
