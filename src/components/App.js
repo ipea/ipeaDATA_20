@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/App.css';
+import '../css/dashboard.css';
 import { Grid, Col, Row } from "react-bootstrap"
 
 import Navbar from "./Navbar"
@@ -22,10 +22,10 @@ class App extends Component {
         </Row>
         <Row className="menu-top">
           <Col className="menu-left" md={2}>
-            <MenuLeft menuname="Macroeconomico" menucolor="nav-sidebar1" sidecolor="sidebar1"/>
+            <MenuLeft menuname={this.props.match.params.id}  menucolor={this.props.match.params.id + "-nav-sidebar"} sidecolor={this.props.match.params.id + "-sidebar"}/>
           </Col>
           <Col  md={10}> 
-            <MenuTop tabname1="Ipeadata" tabcolor1="dropdown4" tabname2="Regional"  tabcolor2="dropdown2" tabname3="Social" tabcolor3="dropdown3" itens={itensMenuTop} />
+            <MenuTop  itens={itensMenuTop} tabcolor={this.props.match.params.id + "-dropdown"} togle={this.props.match.params.id + "-dropdown-toggle"}/>
           </Col>          
         </Row>
         <Row className="down-area">
@@ -34,9 +34,6 @@ class App extends Component {
             <Content />
           </Col>
         </Row>
-      
-      
-      
       </Grid>
     )
   }

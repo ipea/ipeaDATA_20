@@ -1,6 +1,6 @@
 export const itensMenuTop = {
     macro: {
-        name: "macro",
+        name: "macroeconomico",
         active: true
     },
     regional: {
@@ -8,7 +8,7 @@ export const itensMenuTop = {
         active: true
     },
     social: {
-        name: "Social",
+        name: "social",
         active: true
     }
 }
