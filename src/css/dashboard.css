@@ -218,10 +218,7 @@ body {
     padding: 9px 0;
 }
 
-
-/*macroeconomico*/
-
-.dropdown .dropdown-toggle{
+#dropdown-basic-0{
   color: white;
   background-color: #024e9b;
   border-top-left-radius: 1em;
@@ -229,11 +226,25 @@ body {
   width: 200px;
 
 }
+#dropdown-basic-1{
+  color: white;
+    background-color: #7AA623;
+    border-top-left-radius: 1em;
+  padding: 5px; 
+  width: 200px;
 
-.dropdown .dropdown-toggle:hover{
-  
-  background-color: #024e9b;
 }
+#dropdown-basic-2{
+  color: white;
+  background-color: #990303;
+  border-top-left-radius: 1em;
+  padding: 5px; 
+  width: 200px;
+
+}
+
+
+/*macroeconomico*/
 
 .dropdown-menu .sub-menu {
     left: 100%;
@@ -256,11 +267,13 @@ body {
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
  
-}
+}*/
 
 
 /*Regional*/
-.regional-dropdown .regional-dropdown-toggle{
+
+
+/*.regional-dropdown .regional-dropdown-toggle{
   color: white;
     background-color: #7AA623;
     border-top-left-radius: 1em;
@@ -295,10 +308,10 @@ body {
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
     background-color: #024E9B ;
-}
+}*/
 
 /*Social*/
-.dropdown3 .dropdown-toggle{
+/*.dropdown3 .dropdown-toggle{
   color: white;
   background-color: #990303;
   border-top-left-radius: 1em;
@@ -332,10 +345,10 @@ body {
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
     background-color: #024E9B ;
-}
+}*/
 
 /*ipeadata*/
-.dropdown4 .dropdown-toggle{
+/*.dropdown4 .dropdown-toggle{
   color: white;
   background-color: #47717d;
   border-top-left-radius: 1em;
@@ -369,7 +382,7 @@ body {
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
     background-color: white ;
-}
+}*/
 
 /**/
 
