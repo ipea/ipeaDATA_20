@@ -9,8 +9,7 @@ import React from 'react';
 import { render} from 'react-dom';
 import {getFunName} from '../helpers';
 
-
-
+//alert(this.props.route.foo);
 
 class StorePicker extends React.Component {
     
@@ -19,10 +18,9 @@ class StorePicker extends React.Component {
         console.log('mudança de url');
         console.log(this.storeInput);
         const storeId =this.storeInput.value;
-        this.context.router.transitionTo('/store/$(storeId)');
+        this.context.router.transitionTo(`/store/${storeId}`);
                         
     }
-    
     
     
 

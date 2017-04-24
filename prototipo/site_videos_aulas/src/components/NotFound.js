@@ -6,7 +6,7 @@ class NotFound extends React.Component {
 
     render() {
         return(
-                <h2>Arquivo não encontrado</h2>
+                <h2 className="bruno">Arquivo não encontrado</h2>
                 )
     }
 }

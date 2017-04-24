@@ -14,6 +14,7 @@ class Order extends React.Component {
     render() {
         return(
                 <p>ordem</p>
+                
                 )
     }
 }
