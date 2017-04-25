@@ -47,7 +47,11 @@ class Ipeadata extends React.Component {
 					<Menu menuname="Ipeadata" loadSamples={this.loadSamples} menucolor="nav-sidebar4" sidecolor="sidebar4"/>
 				</div>
 				<div className="col-sm-9 col-sm-offset-2">
-					<Tabs tabname1="Macroeconomico" tabcolor1="dropdown" tabname2="Regional" tabcolor2="dropdown2" tabname3="Social" tabcolor3="dropdown3"/>
+					<Tabs item1="Temas" item2="Fonte" item3=" Periodicidade" item4=" Índices Analíticos" item5="Sinopse macroecônomico"
+					item6="Séries mais usadas" item7="Indicadores Ipea" item8=" Séries históricas" item9="Ajuda"
+                                        tabname1="Macroeconomico" tabcolor1="dropdown" tabname2="regional" 
+                                        tabcolor2="dropdown2" tabname3="Social" 
+                                        tabcolor3="dropdown3"/>
 				
 				</div>
 				<div className="col-sm-9 col-sm-offset-2" >

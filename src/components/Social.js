@@ -19,6 +19,7 @@ class Social extends React.Component {
 
 				<div className="col-sm-9 col-sm-offset-2">
 					<Tabs tabname1="Ipeadata" tabcolor1="dropdown4" tabname2="Macroeconomico" tabcolor2="dropdown" tabname3="Regional" tabcolor3="dropdown2" />
+                                        <script src="Tabs.js" type="text/javascript"></script>
 				</div>
 				
 				<div className="Jumbotron" >
