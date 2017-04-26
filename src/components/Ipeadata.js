@@ -7,6 +7,7 @@ import Jumbotron from './Jumbotron'
 import ItemListener from './ItemListener'
 import sampleFishes from '../sample-fishes'
 import Fish from './Fish'
+import Datatable from './Datatable'
 
   
 class Ipeadata extends React.Component {
@@ -50,8 +51,8 @@ class Ipeadata extends React.Component {
 					<Tabs tabname1="Macroeconomico" tabcolor1="dropdown" tabname2="Regional" tabcolor2="dropdown2" tabname3="Social" tabcolor3="dropdown3"/>
 				
 				</div>
-				<div className="col-sm-9 col-sm-offset-2" >
-					<Series/> 
+				<div className="col-sm-9 col-sm-offset-2 datatable" >
+					<Datatable/>
 				</div>
 			
 			</div>

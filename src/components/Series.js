@@ -19,7 +19,7 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>1,001</td>
+                  <td> <a href="/ipeadata"> 1,001</a> </td>
                   <td>Lorem</td>
                   <td>ipsum</td>
                   <td>dolor</td>

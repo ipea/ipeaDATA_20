@@ -8,10 +8,16 @@ import Regional from './components/Regional'
 import Social from './components/Social'
 import Notfound from './components/Notfound'
 
+import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
+
 //const repo = `/${window.location.pathname.split('/')[1]}`;
 
 const Root = () => {
 	return(
+	<MuiThemeProvider>
+    
 	<BrowserRouter >
 		<div>
 			<Match exactly pattern="/" component={Ipeadata}/>		
@@ -23,6 +29,8 @@ const Root = () => {
 
 		</div>
 	</BrowserRouter>
+
+  </MuiThemeProvider>	
 	)
 
 
