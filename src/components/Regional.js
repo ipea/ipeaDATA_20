@@ -14,11 +14,41 @@ class Regional extends React.Component {
 					<Navbar2 navname="Ipeadata"/>
 				</div>
 				<div className="Menu">
-					<Menu menuname="Regional" menucolor="nav-sidebar2" sidecolor="sidebar2"/>
+					<Menu menuname="Regional" menucolor="nav-sidebar2" sidecolor="sidebar2" menubackcolor="menubackcolor2" other="nav-sidebar22"
+                menuname1= "Temas" 
+                menuname2= "Fontes" 
+                menuname3="Nível Geográfico"
+                menuname4="Ajuda"  />
 				</div>
 
 				<div className="col-sm-9 col-sm-offset-2">
-					<Tabs tabname1="Ipeadata" tabcolor1="dropdown4" tabname2="Macroeconomico" tabcolor2="dropdown" tabname3="Social" tabcolor3="dropdown3" />
+					<Tabs 
+  						item1="Temas" 
+         				item2="Fontes" 
+          				item3="Periodicidade" 
+          				item4="Índices Analíticos" 
+          				item5="Sinopse macroecônomica"
+						item6="Séries mais usadas" link6="/Seriesmaisusadas"
+          				item7="Indicadores Ipea" 
+          				item8="Séries históricas" 
+          				item9="Ajuda"
+
+  						item10= "O que é" 
+                        item11= "Equipe Responsábel" 
+                        item12="Metadados"
+                        item13="Direitos de uso"  
+                        item14="Dicas"  
+                        item15="links"  
+                        item16="Fale Conosco"
+
+                        item17="Temas" 
+                        item18="Fontes" 
+                        item19="Nível Geográfico" 
+                        item20="Ajuda" 
+
+						tabname1="Macroeconomico" tabcolor1="dropdown" 
+						tabname2="Ipeadata" tabcolor2="dropdown4" 
+						tabname3="Social" tabcolor3="dropdown3" />
 				</div>
 
 				<div className="Jumbotron" >

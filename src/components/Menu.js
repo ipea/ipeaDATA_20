@@ -9,14 +9,23 @@
  	render(){
  		return (
 <div className="menucolor">
-    
     <div className="container-fluid">
       <div className="row">
-        <div className="col-sm-3 col-md-2 sidebar">
+        <div className={"col-sm-3 col-md-2 sidebar " + this.props.menubackcolor}>
           <ul className={"nav " + this.props.menucolor}>
             <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname} <span className="sr-only">(current)</span></a></li>
-            <button className="btn btn-default" onClick={this.props.loadSamples}>Adicionar</button>
-            
+          </ul>
+          <ul className={"nav " + this.props.other}>
+          <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname1} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname2} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname3} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname4} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname5} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={this.props.link6}>{this.props.menuname6} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname7} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname8} <span className="sr-only"></span></a></li>
+            <li className="active"><a href={'/' + this.props.menuname}>{this.props.menuname9} <span className="sr-only"></span></a></li>
+
           </ul>
         </div>
             </div>

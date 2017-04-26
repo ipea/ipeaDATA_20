@@ -14,12 +14,42 @@ class Social extends React.Component {
 					<Navbar2 navname="Ipeadata"/>
 				</div>
 				<div className="Menu">
-					<Menu menuname="Social" menucolor="nav-sidebar3" sidecolor="sidebar3"/>
+					<Menu menuname="Social" menucolor="nav-sidebar3" sidecolor="sidebar3" menubackcolor="menubackcolor3" other="nav-sidebar33"
+                menuname1= "Temas" 
+                menuname2= "Fontes" 
+                menuname3="Nível Geográfico"
+                menuname4="Ajuda"  />
 				</div>
 
 				<div className="col-sm-9 col-sm-offset-2">
-					<Tabs tabname1="Ipeadata" tabcolor1="dropdown4" tabname2="Macroeconomico" tabcolor2="dropdown" tabname3="Regional" tabcolor3="dropdown2" />
-                                        <script src="Tabs.js" type="text/javascript"></script>
+					<Tabs 
+						item1="Temas" 
+         				item2="Fontes" 
+          				item3="Periodicidade" 
+          				item4="Índices Analíticos" 
+          				item5="Sinopse macroecônomica"
+						item6="Séries mais usadas"  link6="/Seriesmaisusadas"
+          				item7="Indicadores Ipea" 
+          				item8="Séries históricas" 
+          				item9="Ajuda"
+
+					    item10="Temas" 
+                        item11="Fontes" 
+                        item12="Nível Geográfico" 
+                        item13="Ajuda" 
+
+                    	item17="O que é" 
+                        item18="Equipe Responsável" 
+                        item19="Metadados"
+                        item20="Direitos de uso"  
+                        item21="Dicas"  
+                        item22="links"  
+                        item23="Fale Conosco"
+
+						tabname1="Macroeconomico" tabcolor1="dropdown" 
+						tabname2="Regional" tabcolor2="dropdown2" 
+						tabname3="Ipeadata" tabcolor3="dropdown4" />
+                      
 				</div>
 				
 				<div className="Jumbotron" >

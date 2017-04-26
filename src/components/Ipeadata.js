@@ -45,18 +45,46 @@ class Ipeadata extends React.Component {
 					<Navbar2 navname="Ipeadata" menucolor="nav-sidebar4"/>
 				</div>
 				<div className="Menu">
-					<Menu menuname="Ipeadata" loadSamples={this.loadSamples} menucolor="nav-sidebar4" sidecolor="sidebar4"/>
+					<Menu 
+          menuname="Ipeadata" loadSamples={this.loadSamples} menucolor="nav-sidebar4" sidecolor="sidebar4" menubackcolor="menubackcolor" other="nav-sidebar44"
+                menuname1= "O que é" 
+                menuname2= "Equipe Responsábel" 
+                menuname3="Metadados"
+                menuname4="Direitos de uso"  
+                menuname5="Dicas"  
+                menuname6="links"  
+                menuname7="Fale Conosco"
+          />
 				</div>
 				<div className="col-sm-9 col-sm-offset-2">
-					<Tabs item1="Temas" item2="Fonte" item3=" Periodicidade" item4=" Índices Analíticos" item5="Sinopse macroecônomico"
-					item6="Séries mais usadas" item7="Indicadores Ipea" item8=" Séries históricas" item9="Ajuda"
-                                        tabname1="Macroeconomico" tabcolor1="dropdown" tabname2="regional" 
-                                        tabcolor2="dropdown2" tabname3="Social" 
-                                        tabcolor3="dropdown3"/>
+					<Tabs 
+          item1="Temas" 
+          item2="Fontes" 
+          item3="Periodicidade" 
+          item4="Índices Analíticos" 
+          item5="Sinopse macroecônomica"
+					item6="Séries mais usadas" link6="/Seriesmaisusadas"
+          item7="Indicadores Ipea" 
+          item8="Séries históricas" 
+          item9="Ajuda"
+
+          item10="Temas" 
+          item11="Fontes" 
+          item12="Nível Geográfico" 
+          item13="Ajuda" 
+
+          item17="Temas" 
+          item18="Fontes" 
+          item19="Nível Geográfico" 
+          item20="Ajuda" 
+
+            tabname1="Macroeconomico" tabcolor1="dropdown" 
+            tabname2="Regional"       tabcolor2="dropdown2" 
+            tabname3="Social"         tabcolor3="dropdown3"/>
 				
 				</div>
 				<div className="col-sm-9 col-sm-offset-2 datatable" >
-					<Datatable/>
+					
 				</div>
 			
 			</div>
