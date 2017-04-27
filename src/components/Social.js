@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/dashboard.css';
 import Navbar2 from './Navbar2'
 import Menu from './Menu'
 import Tabs from './Tabs'
@@ -46,9 +47,9 @@ class Social extends React.Component {
                         item22="links"  
                         item23="Fale Conosco"
 
-						tabname1="Macroeconomico" tabcolor1="dropdown" 
-						tabname2="Regional" tabcolor2="dropdown2" 
-						tabname3="Ipeadata" tabcolor3="dropdown4" />
+						tabname1="Macroeconomico" tabcolor1="dropdown"  id1="menu1"
+						tabname2="Regional" tabcolor2="dropdown2" 		id2="menu2"
+						tabname3="Ipeadata" tabcolor3="dropdown4" 		id3="menu4"/>
                       
 				</div>
 				

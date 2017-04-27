@@ -330,7 +330,7 @@ body {
   background-color: #024e9b;
 }
 
-.dropdown-menu .sub-menu {
+/*.dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
     top: 0;
@@ -342,16 +342,16 @@ body {
 
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
-}
+}*/
 
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+/*.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
  
-}
+}*/
 
 
 /*Regional*/
@@ -369,7 +369,7 @@ body {
 }
 
 
-.dropdown-menu .sub-menu {
+/*.dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
     top: 0;
@@ -382,15 +382,15 @@ body {
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
 }
-
+*/
 .dropdown2:hover .dropdown-menu {
     display: block;
 }
 
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+/*.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
     background-color: #024E9B ;
-}
+}*/
 
 /*Social*/
 .dropdown3 .dropdown-toggle{
@@ -406,7 +406,7 @@ body {
   background-color: #990303;
 }
 
-.dropdown-menu .sub-menu {
+/*.dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
     top: 0;
@@ -418,16 +418,16 @@ body {
 
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
-}
+}*/
 
 .dropdown3:hover .dropdown-menu {
     display: block;
 }
-
+/*
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
     background-color: #024E9B ;
-}
+}*/
 
 /*ipeadata*/
 .dropdown4 .dropdown-toggle{
@@ -450,11 +450,14 @@ body {
     visibility: hidden;
     margin-top: -1px;
     background-color: #47717d ;
+     color: white;
+
 
 }
 
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
+     color: white;
 }
 
 .dropdown4:hover .dropdown-menu {
@@ -464,7 +467,9 @@ body {
 .nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
     margin-top: 0;
     background-color: white ;
+    color: white;
 }
+
 
 /**/
 
@@ -598,6 +603,7 @@ body {
 .nav-pills {
 margin-bottom: -8px;
 margin-left: -14px;
+ color: white;
 
 }
 
@@ -624,4 +630,37 @@ margin-top: 50px;
 .menubackcolor3{
   background-color: #F5e6e6;
   height: calc(100% - 81px);
+}
+
+.image {
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left: 300px;
+    right: 0;
+    bottom: 0;
+}
+
+#menu1{
+  background-color: #024e9b ;
+  color: white;
+}
+
+#menu2{
+  background-color: #7AA623; ;
+  color: white;
+}
+
+#menu3{
+  background-color: #990303; ;
+  color: white;
+}
+
+#menu4{
+  background-color: #47717d; ;
+  color: white;
+}
+
+.dropdown-menu>li>a{
+  color: white;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/dashboard.css';
 // import {Tab, Row, Col,Nav,NavItem, NavDropdown, MenuItem, Button, ButtonGroup, DropdownButton} from 'react-bootstrap'
 
 
@@ -6,10 +7,10 @@ import React from 'react';
         render(){
         return (
 <ul className="nav nav-pills">
-    <li className={this.props.tabcolor1}>
+    <li className={this.props.tabcolor1} id="menu1">
         <a href={'/' + this.props.tabname1} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname1}</a>
-        <ul className="dropdown-menu" id="menu1">
-            <li><a href="#">{this.props.item1}</a>
+        <ul className="dropdown-menu" id={this.props.id1}>
+            <li ><a href="#">{this.props.item1}</a>
                 <ul className="dropdown-menu sub-menu">
                     <li><a href="#">Alguma coisa</a></li>
                     <li><a href="#">Alguma coisa</a></li>
@@ -30,7 +31,7 @@ import React from 'react';
     </li>
     <li className={this.props.tabcolor2}>
         <a href={'/' + this.props.tabname2} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname2}</a>
-        <ul className="dropdown-menu" id="menu1">
+        <ul className="dropdown-menu" id={this.props.id2}>
             <li><a href="#">{this.props.item10} <i className="icon-arrow-right"></i></a>
                 <ul className="dropdown-menu sub-menu">
                     <li><a href="#">Alguma coisa</a></li>
@@ -52,7 +53,7 @@ import React from 'react';
     </li>
     <li className={this.props.tabcolor3}>
         <a href={'/' + this.props.tabname3} data-toggle="dropdown" className="dropdown-toggle">{this.props.tabname3} </a>
-        <ul className="dropdown-menu" id="menu1">
+        <ul className="dropdown-menu" id={this.props.id3}>
                   <li><a href="#">{this.props.item17} <i className="icon-arrow-right"></i></a>
                 <ul className="dropdown-menu sub-menu">
                     <li><a href="#">Alguma coisa</a></li>

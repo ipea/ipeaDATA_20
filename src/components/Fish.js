@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/dashboard.css';
 import { formatPrice } from '../helpers';
 
 class Fish extends React.Component {

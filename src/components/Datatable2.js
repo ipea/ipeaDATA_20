@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/dashboard.css';
 import {Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn} from 'material-ui/Table';
 
 

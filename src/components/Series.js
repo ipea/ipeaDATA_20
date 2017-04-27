@@ -1,4 +1,5 @@
  import React from 'react';
+ import '../css/dashboard.css';
  
  class Test extends React.Component {
  	render(){

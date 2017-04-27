@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/dashboard.css';
  
 class ItemLister extends React.Component {
     constructor() {

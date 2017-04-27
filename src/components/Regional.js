@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/dashboard.css';
 import Navbar2 from './Navbar2'
 import Menu from './Menu'
 import Tabs from './Tabs'
@@ -46,9 +47,9 @@ class Regional extends React.Component {
                         item19="Nível Geográfico" 
                         item20="Ajuda" 
 
-						tabname1="Macroeconomico" tabcolor1="dropdown" 
-						tabname2="Ipeadata" tabcolor2="dropdown4" 
-						tabname3="Social" tabcolor3="dropdown3" />
+						tabname1="Macroeconomico" tabcolor1="dropdown" id1="menu1"
+						tabname2="Ipeadata" tabcolor2="dropdown4" 	   id2="menu4" 
+						tabname3="Social" tabcolor3="dropdown3" 	   id3="menu3"	/>
 				</div>
 
 				<div className="Jumbotron" >

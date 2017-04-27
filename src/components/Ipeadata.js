@@ -1,4 +1,7 @@
 import React from 'react';
+import '../css/dashboard.css';
+import img1 from '../img/ipea.png';
+
 import Navbar2 from './Navbar2'
 import Menu from './Menu'
 import Tabs from './Tabs'
@@ -78,12 +81,15 @@ class Ipeadata extends React.Component {
           item19="Nível Geográfico" 
           item20="Ajuda" 
 
-            tabname1="Macroeconomico" tabcolor1="dropdown" 
-            tabname2="Regional"       tabcolor2="dropdown2" 
-            tabname3="Social"         tabcolor3="dropdown3"/>
+            tabname1="Macroeconomico" tabcolor1="dropdown"  id1="menu1"
+            tabname2="Regional"       tabcolor2="dropdown2" id2="menu2"
+            tabname3="Social"         tabcolor3="dropdown3" id3="menu3"/>
 				
 				</div>
 				<div className="col-sm-9 col-sm-offset-2 datatable" >
+          <a className="image" >
+            <img src={img1}  />
+          </a>
 					
 				</div>
 			

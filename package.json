@@ -2,7 +2,7 @@
   "name": "cotd",
   "version": "0.0.1",
   "private": true,
-  "homepage": "ipeadata2-desenv.ipea.gov.br/",
+  "homepage": "./",
   "devDependencies": {
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",

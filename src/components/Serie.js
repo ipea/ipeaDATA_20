@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/dashboard.css';
 import Navbar2 from './Navbar2'
 import Menu from './Menu'
 import Tabs from './Tabs'
@@ -80,9 +81,9 @@ class Serie extends React.Component {
 
 
 
-                        tabname1="Ipeadata" tabcolor1="dropdown4" 
-                        tabname2="Regional"  tabcolor2="dropdown2" 
-                        tabname3="Social" tabcolor3="dropdown3"  />
+                        tabname1="Ipeadata" tabcolor1="dropdown4"  id1="menu4"
+                        tabname2="Regional"  tabcolor2="dropdown2" id2="menu2" 
+                        tabname3="Social" tabcolor3="dropdown3"    id3="menu3"/>
                     </div>
 
 			<div>
