@@ -1,4 +1,4 @@
-![alt text](https://i2.wp.com/codeforgeek.com/wp-content/uploads/2016/04/banner-1.png?zoom=2&resize=770%2C385&ssl=1 "Apache") 
+![alt text](https://i2.wp.com/codeforgeek.com/wp-content/uploads/2016/04/banner-1.png?zoom=2&resize=770%2C385&ssl=1 "react+jenkins") 
 
 # Integração continua do React com o Jenkins
 
@@ -7,7 +7,7 @@ Este é um tutorial de como fazer a integração contínua de um projeto **React
 ## Table of Contents
 
 - [Ambiente](#ambiente)
-- [Instalação Tomcat](#instalação-tomcat)
+- [Instalação Apache](#instalação-apache)
 - [Instalação Jenkins](#instalação-jenkins)
 - [Configurando Permissões](#configurando-permissões)
 - [Configurando um Job React/NodeJS](#configurando-um-job-reactnodejs)
@@ -25,7 +25,7 @@ Este é um tutorial de como fazer a integração contínua de um projeto **React
 > - **Security Groups Ports:** 8080
 
 ## Instalação Apache
-![alt text](http://weblabo.oscasierra.net/wp-content/uploads/2014/01/eyecatch-apache.png "Apache") 
+![alt text](https://www.librebyte.net/wp-content/uploads/2012/08/apache_log.png "Apache") 
 
 1. Primeiramente faça a atualização do apt-get: 
 ```shell
@@ -77,7 +77,8 @@ $ service jenkins start
 $ chkconfig jenkins on
 ```
 
-6. Abra o Jenkins em http://<Server-IP>:8080
+6. Abra o Jenkins em http://Server-IP:8080
+
 **Pronto!** você tem agora o Jenkins funcionando!!
 
 ## Configurando Permissões
@@ -87,8 +88,8 @@ Na máquina `Maquina 2` execute o comando
 ```shell
 $ ssh-keygen -t rsa
 ```
-será salvo uma chave publica no diretório
-<your_home_dir>/.ssh/id_rsa.pub
+será salvo uma chave publica no diretório 
+your_home_dir/.ssh/id_rsa.pub
 
 Transfira o arquivo `id_rsa.pub` para o destino usando scp
 
@@ -120,6 +121,8 @@ jenkins ALL=(ALL)NOPASSWD:/home/me/dir/script.sh
 ```
 
 ## Configurando um Job React/NodeJS
+![alt text](http://coenraets.org/blog/wp-content/uploads/2014/12/react-node.png "Apache") 
+
 
 1. Criando Job
 No Clique no item em `New Item` do menu lateral
