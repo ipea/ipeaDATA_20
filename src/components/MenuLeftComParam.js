@@ -8,6 +8,7 @@ class MenuLeftComParam extends Component {
                 <h1>Com Param</h1>
             </div>
         )
+
     }
 }
 

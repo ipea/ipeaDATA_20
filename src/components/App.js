@@ -6,18 +6,23 @@ import Navbar from "./Navbar"
 import MenuLeft from "./MenuLeft"
 import MenuTop from "./MenuTop"
 import Content from "./Content"
+//import Metadados from "./Metadados"
 
 import { itensMenuTop } from "../data/state"
+
+import { itensDropMenu } from "../data/dropdown"
 
 class App extends Component {
   render() {
     console.log(this.props.match.params.id)
+    
     return (
       
       <Grid>
         <Row className="navbar">
           <Col md={12}>
-            <Navbar navname="Ipeadata"/>
+            <Navbar itens={itensDropMenu} navname="Ipeadata"/>
+            
           </Col>          
         </Row>
         <Row className="menu-top">
@@ -31,7 +36,7 @@ class App extends Component {
         <Row className="down-area">
          <Col md={2}> </Col>          
           <Col className="content" md={10}>
-            <Content />
+            <Content url={this.props.match.params.id}  texto="cara e coroa" />
           </Col>
         </Row>
       </Grid>

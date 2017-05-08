@@ -7,6 +7,8 @@ import {
 
 
 import App from './components/App';
+import Metadados from './components/Metadados';
+import Equipe from './components/Equipe';
 import './css/index.css';
 
 
@@ -16,9 +18,9 @@ class Root extends Component {
     return(
       <Router>
         <div>
-          <Route exact path="/" component={App} />
-          <Route path="/:id" component={App} />        
-        </div>
+          <Route exact path="/"  component={App} />
+          <Route path="/:id" component={App} />       
+          </div>
       </Router>
     )
   }
