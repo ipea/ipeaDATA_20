@@ -1,3 +1,5 @@
+![alt text](https://i2.wp.com/codeforgeek.com/wp-content/uploads/2016/04/banner-1.png?zoom=2&resize=770%2C385&ssl=1 "Apache") 
+
 # Integração continua do React com o Jenkins
 
 Este é um tutorial de como fazer a integração contínua de um projeto **React** com o **Jenkins**.
@@ -22,7 +24,9 @@ Este é um tutorial de como fazer a integração contínua de um projeto **React
 > - **AMI-ID:** ami-3ffed17a;
 > - **Security Groups Ports:** 8080
 
-## Instalação Tomcat
+## Instalação Apache
+![alt text](http://weblabo.oscasierra.net/wp-content/uploads/2014/01/eyecatch-apache.png "Apache") 
+
 1. Primeiramente faça a atualização do apt-get: 
 ```shell
 $ sudo apt-get update 
@@ -42,8 +46,8 @@ Esses são os programas necessários para rodar um servidor web.
 ```shell
 $ sudo /etc/init.d/apache2 restart
 ```
-
 ## Instalação Jenkins
+![alt text](http://thedeveloperworldisyours.com/wp-content/uploads/jenkins_logo.png "Jenkins") 
 
 1. Primeiramente torne-se root `sudo su`
 
