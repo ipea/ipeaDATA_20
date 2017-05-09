@@ -120,7 +120,7 @@ Caso não deseje liberar para o jenkins executar qualquer comando você deve exp
 jenkins ALL=(ALL)NOPASSWD:/home/me/dir/script.sh
 ```
 
-## Configurando um Job React/NodeJS
+## Configurando um Job React/NodeJS no Jenkins
 ![alt text](http://coenraets.org/blog/wp-content/uploads/2014/12/react-node.png "Apache") 
 
 
@@ -128,20 +128,33 @@ jenkins ALL=(ALL)NOPASSWD:/home/me/dir/script.sh
 No Clique no item em `New Item` do menu lateral
 
 2. Escolha o tipo de Job
+
 Insira o nome do job no campo `Enter an item name`
+
 Escolha o tipo `Freestyle project`
 
 3. Adicionando código Fonte
 No menu `Source Code Management` escolha a opção `Git`
+
 Em `Repositories` adicione a url do projeto Git em `Repository URL`
-Caso seja nescessário adicione um Breach específica em `Branches to build`
+
+`Para este projeto adicione o repositório: https://github.com/ipea/ipeaDATA_20.git `
+
+Caso seja nescessário adicione um Branch específica em `Branches to build`
+
+`Para este projeto adicione a branch: ipeadata_refactor`
+
 
 4. Gatilhos de Build
-`TODO!`
+**Formato:** MINUTE (0-59), HOUR (0-23), DAY (1-31), MONTH (1-12), DAY OF THE WEEK (0-6)
+
+Coloque @midnight para executar a build todos os dias a meia noite
 
 5. Build
 Neste passo é onde "compilamos" o projeto React
+
 Clique em `Add build step` e escolha a opção `execute shell`
+
 Adicione o código abaixo:
 
 ```shell
@@ -149,7 +162,7 @@ $ sudo npm install
 $ sudo npm run build
 $ sudo scp  `-i chave.pem` -r build/ `user`@`dest-server-ip`:/var/www/html
 ```
-`-i chave.pem`: Caso esteja utilizando uma máquina virtual, na amazon por exemplo, sua chave deve estar na pasta do projeto;
+`-i chave.pem`: Caso esteja utilizando uma máquina virtual, na amazon por exemplo, sua chave deve estar na pasta do projeto, caso contrário nao precisa;
 
 `user`: Usuario com permissão sudo;
 
