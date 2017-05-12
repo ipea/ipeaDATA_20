@@ -1,13 +1,25 @@
-import React, { Component } from 'react'
+import React, { Component }
+from 'react'
 
 
-class Equipe extends Component {
-    
+        class Equipe extends Component {
 
-    render(){
+    render() {
         return(
-                <p>Esse é o componente Equipe</p>
-        )
-    }
+                <div>
+                    <p>Equipe Responsável</p>
+                    <p>Coordenação </p>  
+                   
+                    <p>Gerência operacional </p>
+                   
+                    <p> Análise, padronização e atualização de dados </p> 
+                   
+                    <p> Suporte e manutenção do sistema </p>
+                    
+</div>
+)
 }
+
+}     
+
 export default Equipe

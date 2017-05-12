@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Metadados from "./Metadados"
 import Equipe from "./Equipe"
-import O_que_e from "./O_que_e"
+import Fontes from "./Fontes"
+import DireitosUso from "./DireitosUso"
 
         class Content extends Component {
     		render() {
@@ -12,11 +13,15 @@ import O_que_e from "./O_que_e"
     					{this.props.url === 'Equipe' &&
     						<Equipe/>
     					}
-    					{this.props.url === 'O_que_e' &&
-    						<O_que_e/>
-    					}
+    					
     					{this.props.url === 'Metadados' &&
     						<Metadados/>
+    					}
+    					{this.props.url === 'fontes' &&
+    						<Fontes/>
+    					}
+    					{this.props.url === 'direitos' &&
+    						<DireitosUso/>
     					}
     					</div>
 

@@ -9,16 +9,18 @@ class MenuTop extends Component {
         this.renderDropdownButton = this.renderDropdownButton.bind(this)
     }
 
-    renderDropdownButton(title, i){
+    renderDropdownButton(title,i,x){
         return(
             <Link to={`/${title}`}>
                 
-                <DropdownButton title={title} key={i} id={`dropdown-basic-${i}`}  className={this.props.tabcolor +" "+this.props.togle}>
-                    <MenuItem eventKey="1">Action</MenuItem>
-                    <MenuItem eventKey="2">Another action</MenuItem>
-                    <MenuItem eventKey="3" active>Active Item</MenuItem>
-                    <MenuItem divider />
-                    <MenuItem eventKey="4">Separated link</MenuItem>
+                <DropdownButton  title={title} key={i} id={`dropdown-basic-${i}`}  >
+                    {x.map(function(object, j){
+                      return <li  className="teste" eventKey={j}> <Link to={`/${object.fantasia}`}> {object.name}  </Link> 
+                      
+                        
+                        </li>;
+                      })}    
+                    
                 </DropdownButton>
                 
             </Link>
@@ -26,11 +28,15 @@ class MenuTop extends Component {
     }
       
     render(){
+        
         const itens = this.props.itens
-        const itensNames = Object.keys(itens).map((keys) => itens[keys].name)
+       const itensNames = Object.keys(itens).map((keys) => itens[keys].name)
+       const itensSub = Object.keys(itens).map((keys) => itens[keys].itens)
+        
+        
 
         return(            
-            <ButtonToolbar>{itensNames.map((a,i) => this.renderDropdownButton(a,i))}</ButtonToolbar>
+            <ButtonToolbar>{itensNames.map((a,i) => this.renderDropdownButton(a,i,itensSub[i]))}</ButtonToolbar>
         )
     }
 }

@@ -6,11 +6,9 @@ import Navbar from "./Navbar"
 import MenuLeft from "./MenuLeft"
 import MenuTop from "./MenuTop"
 import Content from "./Content"
-//import Metadados from "./Metadados"
-
 import { itensMenuTop } from "../data/state"
-
 import { itensDropMenu } from "../data/dropdown"
+import { itensTabs } from "../data/itensComponenteTab"
 
 class App extends Component {
   render() {
@@ -30,7 +28,7 @@ class App extends Component {
             <MenuLeft menuname={this.props.match.params.id}  menucolor={this.props.match.params.id + "-nav-sidebar"} sidecolor={this.props.match.params.id + "-sidebar"}/>
           </Col>
           <Col  md={10}> 
-            <MenuTop  itens={itensMenuTop} tabcolor={this.props.match.params.id + "-dropdown"} togle={this.props.match.params.id + "-dropdown-toggle"}/>
+            <MenuTop  itens={itensTabs} tabcolor={this.props.match.params.id + "-dropdown"} togle={this.props.match.params.id + "-dropdown-toggle"}/>
           </Col>          
         </Row>
         <Row className="down-area">

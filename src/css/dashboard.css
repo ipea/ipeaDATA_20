@@ -164,6 +164,8 @@ body {
   margin-top: -11px;
 
 }
+
+
 .ipeadata-nav-sidebar > li > a {
   padding-right: 20px;
   padding-left: 20px;
@@ -252,7 +254,25 @@ body {
 
 }
 
-
+ul.menu, .menu li, .menu { margin:0; padding:0; list-style:none; text-decoration:none;}
+ul.menu ul{ position:absolute; display:none; box-shadow:3px 3px 2px #333;}
+ 
+/* Configurações nivel 1*/
+ul.menu{ float:left; font-family:Verdana, Geneva, sans-serif; font-size:15px; border-radius:5px; padding:0 5px;}
+.menu li{ float:left; width:auto; position:relative;}
+.menu li { display:block; padding:0; line-height:65px; height:65px; float:left; transition:all 0.1s linear; }
+ 
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-1{ display:block; top:45px; left:0; padding:5px; width:200px; border-radius:0 0 5px 5px;   }
+.menu ul.submenu-1 {  width:160px; padding:0 20px; border-radius:5px;  }
+ 
+/* Configurações nivel 2*/
+.menu li:hover > ul.submenu-2{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
+.menu ul.submenu-2 {  width:160px; padding:0 20px; border-radius:5px; }
+ 
+/* Configurações nivel 3*/
+.menu li:hover > ul.submenu-3{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
+.menu ul.submenu-3 {  width:160px; padding:0 20px; border-radius:5px; }
 /*macroeconomico*/
 
 .dropdown-menu .sub-menu {
@@ -444,7 +464,8 @@ body {
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: #bdcedd;
+  color: #b
+      dcedd;
   background-color: #00549f;
 }
 .navbar-custom .navbar-nav > .open > a,

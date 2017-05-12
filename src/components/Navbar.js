@@ -5,19 +5,10 @@ import Metadados from "./Metadados"
 import Equipe from "./Equipe"
 import Content from "./Content"
 
-//<NavDropdown className="navbar-form navbar-right" eventKey={4} onSelect={this.handleSelect} title="Sobre" id="basic-nav-dropdown">
-//<MenuItem eventKey={4.1}> <Link to={"/metadados"}> O que é  </Link> </MenuItem>
-//<MenuItem eventKey={4.2}> <Link to={"/"}> Equipe Responsável  </Link> </MenuItem>
-//<MenuItem eventKey={4.3}> <Link to={"/"}> Direitos de uso  </Link> </MenuItem>
-//<MenuItem eventKey={4.4}> <Link to={"/"}> Dicas  </Link> </MenuItem>
-//<MenuItem eventKey={4.5}> <Link to={"/"}> Links </Link> </MenuItem>
-//</NavDropdown>
-
 
  class Navbar extends Component {
 	constructor(){
         super();
-        this.handleSelect = this.handleSelect.bind(this);
         this.renderDropdownButton = this.renderDropdownButton.bind(this);
     }
      
@@ -34,19 +25,17 @@ import Content from "./Content"
      }
      
      
-    handleSelect(selectedKey){
-    	return "\${selectedKey}";    
-    }  
+    
    render(){
 	   
 	   const itens = this.props.itens
        const itensNames = Object.keys(itens).map((keys) => itens[keys].name)
        const itensSub = Object.keys(itens).map((keys) => itens[keys].itens)
-       console.log(itensSub)
+      
        
         return(
                 
-       <nav texto="cara e coroa" className="navbar navbar-custom navbar-fixed-top">
+       <nav  className="navbar navbar-custom navbar-fixed-top">
           <div className="container-fluid">
            <div className="navbar-header">
              <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
