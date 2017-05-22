@@ -1,11 +1,12 @@
 export const itensTabs =  {
   "Macroeconômico": {
-    "name": "Macroeconomico",
+    "name": "macroeconomico",
     "active": true,
     "itens": [
       {
         "name": "Temas",
-        "fantasia": "temas"
+        "fantasia": "temas",
+          "subitens" :[ {"name": "Test", "fantasia": "test"}]
       },
       {
         "name": "Fontes",

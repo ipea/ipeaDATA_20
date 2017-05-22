@@ -25,7 +25,7 @@ class App extends Component {
         </Row>
         <Row className="menu-top">
           <Col className="menu-left" md={2}>
-            <MenuLeft menuname={this.props.match.params.id}  menucolor={this.props.match.params.id + "-nav-sidebar"} sidecolor={this.props.match.params.id + "-sidebar"}/>
+            <MenuLeft  itens={itensTabs} menuname={this.props.match.params.id}  menucolor={this.props.match.params.id + "-nav-sidebar"} sidecolor={this.props.match.params.id + "-sidebar"}/>
           </Col>
           <Col  md={10}> 
             <MenuTop  itens={itensTabs} tabcolor={this.props.match.params.id + "-dropdown"} togle={this.props.match.params.id + "-dropdown-toggle"}/>

@@ -17,7 +17,7 @@ import Content from "./Content"
              <Link to={`/${title}`}>
                  <NavDropdown className="navbar-form navbar-right" eventKey={i} title={title} id="basic-nav-dropdown">
                  	{x.map(function(object, i){
-                 		return <MenuItem eventKey={i}> <Link to={`/${object.fantasia}`}> {object.name}  </Link> </MenuItem>;
+                 		return <MenuItem eventKey={i} key={i}>  <Link to={`/${object.fantasia}`}> {object.name}  </Link> </MenuItem>;
                  	})}
                  </NavDropdown>              
              </Link>
