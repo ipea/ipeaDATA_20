@@ -34,7 +34,7 @@ class App extends Component {
         <Row className="down-area">
          <Col md={2}> </Col>          
           <Col className="content" md={10}>
-            <Content url={this.props.match.params.id}  texto="cara e coroa" />
+            <Content url={this.props.match.params.id}  />
           </Col>
         </Row>
       </Grid>

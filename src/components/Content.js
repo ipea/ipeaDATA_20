@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Metadados from "./Metadados"
 import Equipe from "./Equipe"
 import Fontes from "./Fontes"
+import Series from "./Series"
 import DireitosUso from "./DireitosUso"
 
         class Content extends Component {
@@ -23,6 +24,10 @@ import DireitosUso from "./DireitosUso"
     					{this.props.url === 'direitos' &&
     						<DireitosUso/>
     					}
+						{this.props.url === 'macroeconomico' &&
+    						<Series/>
+    					}
+
     					</div>
 
                 )
