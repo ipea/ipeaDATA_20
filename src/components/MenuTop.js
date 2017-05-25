@@ -9,18 +9,19 @@ class MenuTop extends Component {
         this.menuUl = this.menuUl.bind(this);
 
     }
-    menuUl(itens) {
+    menuUl(itens,numul) {
+        numul++;
         console.log("funcao");
         
         return (
-                <ul className="submenu-2">
+                <ul className={`submenu-${numul}`}>
                 {
                     itens.map(function (subi, j) {
                         // console.log(subi.name +" " +  itens.name + " " +title);
                         return <li eventKey={j}><Link to={`/${subi.fantasia}`}> {subi.name}  </Link>
                         {
                             subi.hasOwnProperty('subItens')  &&
-                            this.menuUl(subi.subItens)
+                            this.menuUl(subi.subItens,numul)
                         }
                         </li>
                     },this)
@@ -44,10 +45,11 @@ class MenuTop extends Component {
                                     const itensSub1 = itensSub[Object.keys(itensSub)[2]];
                                     // console.log(itensSub1);
                                     // console.log(itens.subItens[0].name);
+                                    const numul = 1;
                                     return <li eventKey={j}> <Link to={`/${itens.fantasia}`}> {itens.name}  </Link>
                                     {
                                         itens.hasOwnProperty('subItens')  &&
-                                        this.menuUl(itens.subItens)
+                                            this.menuUl(itens.subItens,numul)
                                     }
                                     </li>
                                 },this)
