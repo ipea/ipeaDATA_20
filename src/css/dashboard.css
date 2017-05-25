@@ -307,12 +307,16 @@ ul.menu{
     border-radius: 0 5px 5px 5px; }
 
 .menu ul.submenu-2 li{  
+     width:200px; 
+    padding:0 5px; 
+    border-radius:5px;
+}
+ .menu ul.submenu-3 li{  
     width:50px; 
     padding:0 20px; 
     border-radius:5px; 
     color: blue;
 }
- 
 .dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;

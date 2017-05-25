@@ -35,9 +35,7 @@ class MenuTop extends Component {
                 <ul className="menu" title={title} key={i} id={`dropdown-basic-${i}`}  >
                     <li>{title}
                         <ul className="submenu-1">            
-                            {
-                                console.log(x[3].name + " merda")
-                            }
+                           
                             {
                                 x.map(function (itens, j) {
                                     const itensSub = Object.keys(itens).map((keys) => itens[keys]);
@@ -62,15 +60,7 @@ class MenuTop extends Component {
         const itens = this.props.itens
         const itensNames = Object.keys(itens).map((keys) => itens[keys].name)
         const itensSub = Object.keys(itens).map((keys) => itens[keys].itens)
-        var teste = itens.Macroeconômico.itens
-        const teste2 = teste.map(function (object) {
-            return object.name
-        })
-        const teste3 = teste.map(function (object) {
-            return object.subItens
-        })
-        console.log(teste3[0][0].name);
-        console.log(teste3.length);
+        
         return (
             <ButtonToolbar item={itensSub}>{itensNames.map((a, i) => this.renderDropdownButton(a, i, itensSub[i]))}</ButtonToolbar>
         )
