@@ -545,3 +545,19 @@ margin-top: -10px;
 margin-left: -13px;
 
 }
+
+/*table th:nth-child(3), td:nth-child(3) {
+  display: none;
+}*/
+
+.table {
+  border-spacing: 0;
+}
+
+.td{
+padding: 2px 5px;
+}
+
+.jsonOdd{
+background:#eee;
+}
