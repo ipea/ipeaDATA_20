@@ -19,7 +19,7 @@ class MenuTop extends Component {
                         // console.log(subi.name +" " +  itens.name + " " +title);
                         return <li eventKey={j}><Link to={`/${subi.fantasia}`}> {subi.name}  </Link>
                         {
-                            subi.subItens.length > 0 &&
+                            subi.hasOwnProperty('subItens')  &&
                             this.menuUl(subi.subItens)
                         }
                         </li>
@@ -46,7 +46,7 @@ class MenuTop extends Component {
                                     // console.log(itens.subItens[0].name);
                                     return <li eventKey={j}> <Link to={`/${itens.fantasia}`}> {itens.name}  </Link>
                                     {
-                                        itens.subItens.length > 0 &&
+                                        itens.hasOwnProperty('subItens')  &&
                                         this.menuUl(itens.subItens)
                                     }
                                     </li>

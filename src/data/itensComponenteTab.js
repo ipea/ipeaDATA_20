@@ -9,8 +9,7 @@ export const itensTabs =   {
          "subItens": [
            {
              "name":"Balanço de Pagamentos",
-             "fantasia":"Balanco-de-Pagamentos",
-              "subItens": []
+             "fantasia":"Balanco-de-Pagamentos"
              
            },
              {
@@ -18,8 +17,7 @@ export const itensTabs =   {
               "fantasia":"terceiro",
               "subItens": [{
                   "name": "Quarto Nivel",
-                  "fantasia": "quarto",
-                  "subItens": []
+                  "fantasia": "quarto"
               }]
            }
            ]
@@ -31,14 +29,12 @@ export const itensTabs =   {
          "subItens": [
            {
              "name":"Abia",
-             "fantasia":"abia",
-              "subItens": []
+             "fantasia":"abia"
              
            },
              {
              "name":"Abinee",
-              "fantasia":"abinee",
-              "subItens": []
+              "fantasia":"abinee"
            }
            ]
       },
@@ -48,14 +44,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Diária",
-             "fantasia":"diaária",
-              "subItens": []
+             "fantasia":"diaária"
              
            },
              {
              "name":"Mensal",
-              "fantasia":"mensal",
-              "subItens": []
+              "fantasia":"mensal"
            }
            ]
       },
@@ -80,14 +74,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       
@@ -98,14 +90,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       },
@@ -115,14 +105,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
         
@@ -133,14 +121,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Balanco de Pagamentos",
-             "fantasia":"balanco",
-              "subItens": []
+             "fantasia":"balanco"
              
            },
              {
              "name":"cambio",
-              "fantasia":"cambio",
-              "subItens": []
+              "fantasia":"cambio"
            }
            ]
       },
@@ -150,14 +136,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       }
@@ -173,14 +157,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       },
@@ -190,14 +172,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       },
@@ -207,14 +187,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       },
@@ -224,14 +202,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       }
@@ -247,14 +223,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       },
@@ -263,14 +237,12 @@ export const itensTabs =   {
         "fantasia": "fontes","subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       },
@@ -280,14 +252,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       },
@@ -297,14 +267,12 @@ export const itensTabs =   {
         "subItens": [
            {
              "name":"Agregados Monetarios",
-             "fantasia":"agregados",
-              "subItens": []
+             "fantasia":"agregados"
              
            },
              {
              "name":"Balanço de Pagamento",
-              "fantasia":"balanco-de-pagamento",
-              "subItens": []
+              "fantasia":"balanco-de-pagamento"
            }
            ]
       }
