@@ -20,7 +20,7 @@ import JsonTable from 'react-json-table'
                 return Httpreq.responseText;        
             }
         //axios
-        var json_obj = JSON.parse(Get("http://www.ipeadata.gov.br/api/odata4/Metadados")); 
+        //var json_obj = JSON.parse(Get("http://www.ipeadata.gov.br/api/odata4/Metadados")); 
         //console.log(json_obj.value);
         //const itens = Object.map((keys) => json_obj[keys].value)
         //console.log(Object.entries(json_obj.value));
@@ -30,7 +30,7 @@ import JsonTable from 'react-json-table'
         return(
         	<div class="container">
             
-            <JsonTable rows={ json_obj.value } />
+            {/*<JsonTable rows={ json_obj.value } />*/}
             </div>
                 
 )
