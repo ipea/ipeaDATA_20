@@ -39,10 +39,7 @@ body {
 .navbar-icone img
 {
      margin-top: 20px;
-     margin-left: 20px;
-   
-    
-    
+     margin-left: 20px;    
 }
 
 
@@ -254,27 +251,68 @@ body {
 
 }
 
-ul.menu, .menu li, .menu { margin:0; padding:0; list-style:none; text-decoration:none;}
-ul.menu ul{ position:absolute; display:none; box-shadow:3px 3px 2px #333;}
- 
-/* Configurações nivel 1*/
-ul.menu{ float:left; font-family:Verdana, Geneva, sans-serif; font-size:15px; border-radius:5px; padding:0 5px;}
-.menu li{ float:left; width:auto; position:relative;}
-.menu li { display:block; padding:0; line-height:65px; height:65px; float:left; transition:all 0.1s linear; }
- 
-/* Configurações nivel 2*/
-.menu li:hover > ul.submenu-1{ display:block; top:45px; left:0; padding:5px; width:200px; border-radius:0 0 5px 5px;   }
-.menu ul.submenu-1 {  width:160px; padding:0 20px; border-radius:5px;  }
- 
-/* Configurações nivel 2*/
-.menu li:hover > ul.submenu-2{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
-.menu ul.submenu-2 {  width:160px; padding:0 20px; border-radius:5px; }
- 
-/* Configurações nivel 3*/
-.menu li:hover > ul.submenu-3{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
-.menu ul.submenu-3 {  width:160px; padding:0 20px; border-radius:5px; }
-/*macroeconomico*/
+ul.menu, .menu li, .menu { 
+       margin:0; 
+       padding: 0;
+       list-style:none; 
+       text-decoration:none;
+}
 
+ul.menu ul{ 
+    position:absolute; 
+    display:none; 
+    box-shadow:3px 3px 2px #333;
+}
+
+ul.menu{ 
+    float:left; /*faz os objetos flutuar para uma direçao*/
+    font-family:Verdana, Geneva, sans-serif; 
+    font-size:15px; 
+    border-radius:5px; 
+    padding:0 5px;
+}
+
+.menu li{ 
+    float:left; 
+    width:auto; 
+    position:relative; /*posiciona o elemento em relação a si mesmo*/
+    display:block;/*indica que o elemento ser um bloco que podera receber uma posição e uma largura*/
+    padding:0 50px; 
+    line-height:45px; /*indica o espaçamento entre as linhas*/
+    height:45px; /*indica a altura do elemento*/
+    float:left; 
+    transition:all 0.1s linear;
+    
+}
+.menu li:hover > ul.submenu-1{  
+    display:block; 
+    top:45px; 
+    left:5px; 
+    padding:2px; 
+    width:200px; 
+    
+      
+}
+.menu ul.submenu-1 li{  
+    width:200px; 
+    padding:0 5px; 
+    border-radius:5px;  
+}
+.menu li:hover > ul.submenu-2{
+    display:block; 
+    top:0; 
+    left:195px; 
+    padding:5px; 
+    width:200px;  
+    border-radius: 0 5px 5px 5px; }
+
+.menu ul.submenu-2 li{  
+    width:50px; 
+    padding:0 20px; 
+    border-radius:5px; 
+    color: blue;
+}
+ 
 .dropdown-menu .sub-menu {
     left: 100%;
     position: absolute;
