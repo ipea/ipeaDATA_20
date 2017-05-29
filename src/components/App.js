@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import MenuLeft from "./MenuLeft";
 import MenuTop from "./MenuTop";
 import Content from "./Content";
+import MenuLeftCustom from "./MenuLeftCustom";
 import { itensMenuTop } from "../data/state";
 import { itensDropMenu } from "../data/dropdown";
 import { itensTabs } from "../data/itensComponenteTab";
@@ -24,7 +25,8 @@ class App extends Component {
         </Row>
         <Row className="menu-top">
           <Col className="menu-left" md={2}>
-            <MenuLeft
+          {/*<MenuLeftCustom itens={itensTabs} />*/}
+          <MenuLeft
               itens={itensTabs}
               menuname={this.props.match.params.id}
               menucolor={this.props.match.params.id + "-nav-sidebar"}

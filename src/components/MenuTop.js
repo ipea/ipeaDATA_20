@@ -17,7 +17,7 @@ class MenuTop extends Component {
                 {itens.map(function(subi, j) {
                     // console.log(subi.name +" " +  itens.name + " " +title);
                     return (
-                        <li eventKey={j}>
+                        <li >
                             <Link to={`/${subi.fantasia}`}> {subi.name} </Link>
                             {subi.hasOwnProperty("subItens") &&
                                 this.menuUl(subi.subItens, numul)}
@@ -50,7 +50,7 @@ class MenuTop extends Component {
                                 // console.log(itens.subItens[0].name);
                                 const numul = 1;
                                 return (
-                                    <li eventKey={j}>
+                                    <li >
                                         {" "}
                                         <Link to={`/${itens.fantasia}`}>
                                             {" "}{itens.name}{" "}
@@ -72,7 +72,7 @@ class MenuTop extends Component {
         const itensSub = Object.keys(itens).map(keys => itens[keys].itens);
 
         return (
-            <ButtonToolbar item={itensSub}>
+            <ButtonToolbar >
                 {itensNames.map((a, i) =>
                     this.renderDropdownButton(a, i, itensSub[i])
                 )}

@@ -1,15 +1,11 @@
 import React, { Component } from "react";
-import {
-	ButtonToolbar,
-	DropdownButton,
-	MenuItem,
-	Button,
-	ButtonGroup,
-	SplitButton
-} from "react-bootstrap";
+import ReactDOM from "react-dom";
+import Menu, { SubMenu, Item as MenuItem, Divider } from "rc-menu";
+import "rc-menu/assets/index.css";
 import { Link } from "react-router-dom";
 
-class MenuLeft extends Component {
+export class MenuLeftCustom extends Component {
+
 	constructor() {
 		super();
 		this.renderMenu = this.renderMenu.bind(this);
@@ -116,7 +112,6 @@ class MenuLeft extends Component {
 			</Link>
 		);
 	}
-
 	render() {
 		const itens = this.props.itens;
 		const itensNames = Object.keys(itens).map(keys => itens[keys].name);
@@ -169,29 +164,60 @@ class MenuLeft extends Component {
 				);
 				break;
 		}
+/*
+		function handleSelect(info) {
+			console.log("selected ", info);
+		}
 
-		//console.log (this.props.menuname)
+		function handleClick(info) {
+			console.log("click ", info);
+		}
+
+		const titleRight = (
+			<span>
+				sub menu
+				<i className="fa fa-caret-right pull-right" />
+			</span>
+		);
+		const titleRight1 = (
+			<span>
+				sub menu 1
+				<i className="fa fa-caret-right pull-right" />
+			</span>
+		);
+		const titleRight2 = (
+			<span>
+				sub menu 2
+				<i className="fa fa-caret-right pull-right" />
+			</span>
+		);
+		const titleRight3 = (
+			<span>
+				sub menu 3
+				<i className="fa fa-caret-right pull-right" />
+			</span>
+		);*/
+
+		const leftMenu = (
+			<Menu>
+				<SubMenu title={itenName.map(a => this.renderMenu(a, i))} key="1">
+				{/*	<MenuItem key="1-1">0-1</MenuItem>
+					<MenuItem key="1-2">0-2</MenuItem>*/}
+				</SubMenu>
+				
+			</Menu>
+		);
+
 		return (
-			<div className="menucolor">
-				<ul className={"nav " + this.props.menucolor}>
-					<li className="active">
-						<a href={"/" + this.props.menuname}>
-							{this.props.menuname}
-							{" "}
-							<span className="sr-only">
-								(current)
-							</span>
-						</a>
-					</li>
-					<ButtonGroup>
-						{itenName.map(a => this.renderMenu(a, i))}
-					</ButtonGroup>
-					{/*<ButtonToolbar item={x}>{itenName2.map((a) => this.renderDropdownButton(a, i, x))}</ButtonToolbar>*/}
-
-				</ul>
+			<div>
+				<link
+					href="//cdn.bootcss.com/font-awesome/4.2.0/css/font-awesome.css"
+					rel="stylesheet"
+				/>
+				<div style={{ width: 200 }}>{leftMenu}</div>
 			</div>
 		);
 	}
 }
 
-export default MenuLeft;
+export default MenuLeftCustom;

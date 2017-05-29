@@ -68,7 +68,7 @@
   
   @media {
       .sidebar {
-          width: 300px;
+          width: 200px;
           position: fixed;
           top: 51px;
           left: 0;
@@ -259,16 +259,13 @@
   ul.menu ul {
       position: absolute;
       display: none;
-      box-shadow: 3px 3px 2px #333;
   }
   
   ul.menu {
       float: left;
       /*faz os objetos flutuar para uma direçao*/
-      font-family: Verdana, Geneva, sans-serif;
-      font-size: 15px;
+      font-size: 10 px;
       border-radius: 5px;
-      padding: 0 5px;
   }
   
   .menu li {
@@ -278,24 +275,16 @@
       /*posiciona o elemento em relação a si mesmo*/
       display: block;
       /*indica que o elemento ser um bloco que podera receber uma posição e uma largura*/
-      padding: 0 50px;
-      line-height: 45px;
       /*indica o espaçamento entre as linhas*/
-      height: 45px;
+      height: 20px;
       /*indica a altura do elemento*/
       float: left;
-      transition: all 0.1s linear;
   }
   
   .menu li:hover > ul.submenu-1 {
-      background: #024e9b !important;
       float: left;
       /*faz os objetos flutuar para uma direçao*/
       display: block;
-      top: 45px;
-      left: -5px;
-      padding: 2px;
-      width: 200px;
       color: white;
   }
   
@@ -642,3 +631,52 @@
   .jsonOdd {
       background: #eee;
   }
+  
+ /*  .menu {
+     position: relative;
+ }
+ 
+ .menu>.dropdown-menu {
+     top: 0;
+     left: 100%;
+     margin-top: -6px;
+     margin-left: -1px;
+     -webkit-border-radius: 0 6px 6px 6px;
+     -moz-border-radius: 0 6px 6px 6px;
+     border-radius: 0 6px 6px 6px;
+ }
+ 
+ .menu:hover>.dropdown-menu {
+     display: block;
+ }
+ 
+ .menu>a:after {
+     display: block;
+     content: " ";
+     float: right;
+     width: 0;
+     height: 0;
+     border-color: transparent;
+     border-style: solid;
+     border-width: 5px 0 5px 5px;
+     border-left-color: #cccccc;
+     margin-top: 5px;
+     margin-right: -10px;
+ }
+ 
+ .menu:hover>a:after {
+     border-left-color: #ffffff;
+ }
+ 
+ .menu.pull-left {
+     float: none;
+ }
+ 
+ .dropdown-submenu.pull-left>.dropdown-menu {
+     left: -100%;
+     margin-left: 10px;
+     -webkit-border-radius: 6px 0 6px 6px;
+     -moz-border-radius: 6px 0 6px 6px;
+     border-radius: 6px 0 6px 6px;
+ }
+  */
