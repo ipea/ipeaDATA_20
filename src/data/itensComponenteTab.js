@@ -1,5 +1,5 @@
 export const itensTabs = {
-  Macroeconômico: {
+    Macroeconômico: {
     name: "macroeconomico",
     active: true,
     itens: [
@@ -9,14 +9,20 @@ export const itensTabs = {
         subItens: [
           {
             name: "Balanço de Pagamentos",
-            fantasia: "Balanco-de-Pagamentos"
+            fantasia: "Balanco-de-Pagamentos",
+            subItens: [
+                {
+                 name: "(Todas)",
+                fantasia: "todas"
+            }
+            ]
           },
           {
-            name: "Terceiro Nivel",
-            fantasia: "terceiro",
+            name: "Cambio",
+            fantasia: "cambio",
             subItens: [
               {
-                name: "Quarto Nivel",
+                name: "bruno",
                 fantasia: "quarto"
               }
             ]
