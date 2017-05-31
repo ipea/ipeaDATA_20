@@ -6,14 +6,15 @@ import Navbar from "./Navbar";
 import MenuLeft from "./MenuLeft";
 import MenuTop from "./MenuTop";
 import Content from "./Content";
-import MenuLeftCustom from "./MenuLeftCustom";
-import { itensMenuTop } from "../data/state";
+import Footer from "./Footer";
+/*import MenuLeftCustom from "./MenuLeftCustom";*/
+/*import { itensMenuTop } from "../data/state";*/
 import { itensDropMenu } from "../data/dropdown";
 import { itensTabs } from "../data/itensComponenteTab";
 
 class App extends Component {
   render() {
-    //console.log(this.props.match.params.id)
+    //console.log(this.props.match.params)
 
     return (
       <Grid>
@@ -40,12 +41,16 @@ class App extends Component {
               togle={this.props.match.params.id + "-dropdown-toggle"}
             />
           </Col>
+          <Col className="content" md={10}>
+            <Content url={this.props.match.params} />
+          </Col>
         </Row>
         <Row className="down-area">
           <Col md={2}> </Col>
-          <Col className="content" md={10}>
-            <Content url={this.props.match.params.id} />
-          </Col>
+        </Row>
+        <Row >
+          <Col md={12}> </Col>
+          <Footer/>
         </Row>
       </Grid>
     );

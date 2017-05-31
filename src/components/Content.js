@@ -7,16 +7,26 @@ import DireitosUso from "./DireitosUso";
 
 class Content extends Component {
     render() {
+        var text = "erro";
+        if (this.props.url.id !== undefined) {
+            text = this.props.url.id;
+            if (this.props.url.submenu !== undefined) {
+                text = this.props.url.submenu;
+                if (this.props.url.submenu2 !== undefined) {
+                    text = this.props.url.submenu2;
+            }
+            }
+        }
         //console.log(this.props.url)
+        /*{this.props.url === "Equipe" && <Equipe />}
+                {this.props.url === "Metadados" && <Metadados />}
+                {this.props.url === "fontes" && <Fontes />}
+                {this.props.url === "direitos" && <DireitosUso />}
+                {this.props.url === "macroeconomico" && <Series />}*/
 
         return (
             <div>
-                {this.props.url === "macroeconomico/Equipe" && <Equipe />}
-                {this.props.url === "macroeconomico/Metadados" && <Metadados />}
-                {this.props.url === "macroeconomico/fontes" && <Fontes />}
-                {this.props.url === "macroeconomico/direitos" && <DireitosUso />}
-                {this.props.url === "macroeconomico" && <Series />}
-
+                <h1>{text}</h1>
             </div>
         );
     }

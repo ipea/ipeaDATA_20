@@ -1,9 +1,14 @@
 import React, { Component } from "react";
-import { NavDropdown, MenuItem, ButtonToolbar, Button } from "react-bootstrap";
+import { NavDropdown, MenuItem, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Metadados from "./Metadados";
+
+import img1 from '../imgs/logo.gif';
+import img2 from '../imgs/logo_ipea.gif';
+import img3 from '../imgs/ico_inglaterra.gif';
+
+/*import Metadados from "./Metadados";
 import Equipe from "./Equipe";
-import Content from "./Content";
+import Content from "./Content";*/
 
 class Navbar extends Component {
     constructor() {
@@ -13,10 +18,9 @@ class Navbar extends Component {
 
     renderDropdownButton(title, i, x) {
         return (
-            <Link to={`/${title}`}>
+            <Link key={i} to={`/${title}`}>
                 <NavDropdown
                     className="navbar-form navbar-right"
-                    eventKey={i}
                     title={title}
                     id="basic-nav-dropdown"
                 >
@@ -63,10 +67,10 @@ class Navbar extends Component {
                             href={"/" + this.props.navname}
                             className="navbar-brand"
                         >
-                            <img src="logo.gif" />
+                            <img alt="imagem" src={img1} />
                         </a>
                         <a href="#" className="navbar-icone">
-                            <img src="ico_inglaterra.gif" />
+                            <img alt="imagem" src={img3} />
                         </a>
                     </div>
                     <div id="navbar" className="navbar-collapse collapse">
@@ -77,7 +81,7 @@ class Navbar extends Component {
                                 href={"/" + this.props.navname}
                                 className="navbar-brand"
                             >
-                                <img src="logo_ipea.gif" />
+                                <img alt="imagem" src={img2} />
                             </a>
                         </ul>
 

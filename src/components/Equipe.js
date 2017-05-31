@@ -8,9 +8,7 @@ class Equipe extends Component {
 				<p>Coordenação </p>
 
 				<p>Gerência operacional </p>
-
 				<p> Análise, padronização e atualização de dados </p>
-
 				<p> Suporte e manutenção do sistema </p>
 
 			</div>

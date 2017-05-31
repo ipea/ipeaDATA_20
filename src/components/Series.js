@@ -15,7 +15,7 @@ class Series extends Component {
             Get("http://www.ipeadata.gov.br/api/odata4/Paises")
         );*/
         return (
-            <div class="container">
+            <div className="container">
 
                 {/*<JsonTable rows={json_obj.value} />*/}
             </div>
