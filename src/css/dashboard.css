@@ -331,7 +331,7 @@ code {
   }
   
   .menu li:hover > ul.submenu-2 {
-      background-color: #024e9b !important;
+     
       float: left;
       /*faz os objetos flutuar para uma direçao*/
       display: block;
@@ -344,7 +344,7 @@ code {
   }
   
   .menu li:hover > ul.submenu-3 {
-      background-color: #000000 !important;
+    
       display: block;
       top: 0;
       left: 195px;
