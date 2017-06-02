@@ -1,6 +1,0 @@
-[0426/141801.788:ERROR:process_reader_win.cc(142)] SuspendThread: Acesso negado. (0x5)
-[0426/141801.790:ERROR:exception_snapshot_win.cc(87)] thread ID 5772 not found in process
-[0426/141801.790:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
-[0426/141801.790:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Tentou-se acessar um processo de saída.  (0xc000010a)
-[0511/144205.095:ERROR:exception_snapshot_win.cc(87)] thread ID 5336 not found in process
-[0511/144205.096:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed

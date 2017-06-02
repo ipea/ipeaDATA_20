@@ -7,6 +7,7 @@ import MenuLeft from "./MenuLeft";
 import MenuTop from "./MenuTop";
 import Content from "./Content";
 import Footer from "./Footer";
+import Datatable from "./Datatable";
 /*import MenuLeftCustom from "./MenuLeftCustom";*/
 /*import { itensMenuTop } from "../data/state";*/
 import { itensDropMenu } from "../data/dropdown";
@@ -21,7 +22,6 @@ class App extends Component {
         <Row className="navbar">
           <Col md={12}>
             <Navbar itens={itensDropMenu} navname="Ipeadata" />
-
           </Col>
         </Row>
         <Row className="menu-top">
@@ -43,6 +43,7 @@ class App extends Component {
           </Col>
           <Col className="content" md={10}>
             <Content url={this.props.match.params} />
+            <Datatable />
           </Col>
         </Row>
         <Row className="down-area">

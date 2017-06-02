@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/*import React, { Component } from "react";
 import JsonTable from "react-json-table";
 
 class Series extends Component {
@@ -11,16 +11,16 @@ class Series extends Component {
         }
     }
     render() {
-/*        var json_obj = JSON.parse(
+        var json_obj = JSON.parse(
             Get("http://www.ipeadata.gov.br/api/odata4/Paises")
-        );*/
+        );
         return (
             <div className="container">
 
-                {/*<JsonTable rows={json_obj.value} />*/}
+                <JsonTable rows={json_obj.value} />
             </div>
         );
     }
 }
 
-export default Series;
+export default Series;*/

@@ -4,6 +4,7 @@ import Equipe from "./Equipe";
 import Fontes from "./Fontes";
 import Series from "./Series";
 import DireitosUso from "./DireitosUso";
+import {Breadcrumb} from "react-bootstrap";
 
 class Content extends Component {
     render() {
@@ -26,6 +27,17 @@ class Content extends Component {
 
         return (
             <div>
+                <Breadcrumb>
+                    <Breadcrumb.Item href="#">
+                        {this.props.url.id}
+                    </Breadcrumb.Item>
+                    <Breadcrumb.Item href="http://getbootstrap.com/components/#breadcrumbs">
+                        {this.props.url.submenu}
+                    </Breadcrumb.Item>
+                    <Breadcrumb.Item active>
+                        {this.props.url.submenu2}
+                    </Breadcrumb.Item>
+                </Breadcrumb>
                 <h1>{text}</h1>
             </div>
         );
