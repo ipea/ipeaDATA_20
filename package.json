@@ -5,6 +5,7 @@
   "homepage": "./",
   "dependencies": {
     "jquery": "^3.2.1",
+    "jsrender": "^0.9.84",
     "react": "^15.5.4",
     "react-bootstrap": "^0.30.9",
     "react-bootstrap-table": "^3.3.7",

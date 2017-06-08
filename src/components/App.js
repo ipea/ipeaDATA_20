@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import "../css/dashboard.css";
 import { Grid, Col, Row } from "react-bootstrap";
-
+import {EJ} from "jsrender";
 import Navbar from "./Navbar";
 import MenuLeft from "./MenuLeft";
 import MenuTop from "./MenuTop";
 import Content from "./Content";
 import Footer from "./Footer";
+import GridSerie from "./GridSerie";
 import Datatable from "./Datatable";
 /*import MenuLeftCustom from "./MenuLeftCustom";*/
 /*import { itensMenuTop } from "../data/state";*/

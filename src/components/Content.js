@@ -5,9 +5,12 @@ import Fontes from "./Fontes";
 import Series from "./Series";
 import DireitosUso from "./DireitosUso";
 import {Breadcrumb} from "react-bootstrap";
+import GridSerie from "./GridSerie";
 
 class Content extends Component {
     render() {
+        
+      
         var text = "erro";
         if (this.props.url.id !== undefined) {
             text = this.props.url.id;
@@ -27,6 +30,7 @@ class Content extends Component {
 
         return (
             <div>
+      <GridSerie />
                 <Breadcrumb>
                     <Breadcrumb.Item href="#">
                         {this.props.url.id}

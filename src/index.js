@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 
 import App from "./components/App";
 import "./css/index.css";
-
+import $ from "jquery";
+    
 class Root extends Component {
   render() {
     return (
